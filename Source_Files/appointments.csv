@@ -1,0 +1,1001 @@
+appointment_id,patient_id,insurance_id,appointment_date,appointment_time,appointment_type,department,provider_id,location_id,resource_id,event_id,status,duration_minutes,copay_amount
+1,P0978,INS0978,2023-03-22,15:45,Physical Therapy,Neurology,10,2,6,5,Cancelled,30,47.96
+2,P0742,INS0742,2024-09-29,18:00,Lab Review,Dermatology,10,11,4,3,Completed,30,41.98
+3,P0825,INS0825,2024-05-05,09:30,Follow-up,Cardiology,6,11,1,3,Completed,30,18.41
+4,P0973,INS0973,2024-02-19,07:15,Routine Checkup,Primary Care,6,14,6,5,Cancelled,60,2.1
+5,P0737,INS0737,2024-06-30,12:45,Lab Review,Orthopedics,10,11,3,4,No Show,60,30.1
+6,P0730,INS0730,2024-07-03,18:30,Specialist Visit,Pediatrics,4,7,3,5,Cancelled,45,29.48
+7,P0954,INS0954,2025-10-26,13:00,Follow-up,Cardiology,5,3,1,2,No Show,45,27.75
+8,P0549,INS0549,2023-01-17,16:30,Physical Therapy,Pediatrics,9,2,3,2,Cancelled,90,10.69
+9,P0806,INS0806,2025-01-30,16:45,Follow-up,Pediatrics,8,3,1,2,Scheduled,60,65.26
+10,P0283,INS0283,2023-10-07,10:30,Lab Review,Dermatology,2,5,2,4,Scheduled,45,3.95
+11,P0684,INS0684,2024-06-26,17:15,Specialist Visit,Cardiology,7,14,1,3,No Show,45,16.01
+12,P0830,INS0830,2023-04-25,14:45,Specialist Visit,Neurology,8,4,1,1,Scheduled,90,48.42
+13,P0749,INS0749,2023-09-07,14:30,Specialist Visit,Cardiology,2,2,3,5,Cancelled,15,68.71
+14,P0571,INS0571,2024-07-29,12:15,Specialist Visit,Pediatrics,5,12,2,4,Cancelled,45,20.03
+15,P0697,INS0697,2025-10-17,07:00,Follow-up,Cardiology,3,14,6,1,Cancelled,45,65.65
+16,P0841,INS0841,2023-10-30,10:45,Follow-up,Orthopedics,3,10,4,4,No Show,60,14.12
+17,P0480,INS0480,2023-01-07,08:30,Routine Checkup,Neurology,1,15,6,3,Completed,60,69.93
+18,P0065,INS0065,2023-02-20,12:30,Lab Review,Dermatology,1,1,1,2,Cancelled,30,54.71
+19,P0068,INS0068,2024-09-25,09:30,Follow-up,Neurology,4,2,4,1,No Show,30,72.57
+20,P0709,INS0709,2023-09-10,10:45,Physical Therapy,Neurology,2,8,2,1,Completed,15,14.86
+21,P0638,INS0638,2024-12-09,12:15,Physical Therapy,Orthopedics,3,15,6,1,Completed,90,54.47
+22,P0877,INS0877,2025-09-19,10:30,Specialist Visit,Neurology,6,10,3,2,Completed,30,12.67
+23,P0656,INS0656,2025-06-25,10:15,Physical Therapy,Dermatology,10,3,1,3,No Show,60,51.84
+24,P0849,INS0849,2024-03-30,12:15,Specialist Visit,Cardiology,7,7,1,5,No Show,15,35.22
+25,P0094,INS0094,2023-04-11,15:45,Routine Checkup,Dermatology,3,7,5,4,Scheduled,90,60.52
+26,P0850,INS0850,2024-02-14,13:00,Routine Checkup,Primary Care,8,2,2,4,Scheduled,45,48.36
+27,P0976,INS0976,2024-03-31,15:15,Lab Review,Primary Care,8,11,6,4,No Show,90,64.46
+28,P0799,INS0799,2025-04-04,14:15,Vaccination,Orthopedics,5,3,2,2,Completed,30,10.62
+29,P0166,INS0166,2025-11-07,07:00,Physical Therapy,Pediatrics,5,3,3,5,Completed,30,13.4
+30,P0982,INS0982,2024-12-25,13:00,Follow-up,Cardiology,10,6,2,3,Scheduled,60,18.17
+31,P0919,INS0919,2025-09-07,10:00,Lab Review,Primary Care,9,1,3,4,Cancelled,45,7.84
+32,P0242,INS0242,2023-01-13,14:30,Specialist Visit,Dermatology,5,13,1,5,No Show,30,1.02
+33,P0676,INS0676,2023-05-27,10:45,Specialist Visit,Orthopedics,1,9,3,4,Completed,90,62.11
+34,P0485,INS0485,2025-01-18,13:00,Vaccination,Neurology,5,13,4,1,No Show,45,18.86
+35,P0075,INS0075,2023-12-23,17:00,Vaccination,Primary Care,7,12,3,1,Scheduled,90,57.48
+36,P0690,INS0690,2024-12-01,12:45,Vaccination,Primary Care,10,15,6,1,Cancelled,90,73.86
+37,P0606,INS0606,2024-10-19,14:45,Vaccination,Cardiology,1,8,1,2,Scheduled,45,12.65
+38,P1000,INS1000,2023-11-21,17:00,Routine Checkup,Dermatology,8,2,2,1,Completed,45,5.5
+39,P0207,INS0207,2024-05-13,18:45,Physical Therapy,Orthopedics,8,9,5,4,Cancelled,15,42.48
+40,P0536,INS0536,2025-08-29,10:00,Specialist Visit,Orthopedics,8,15,4,2,Scheduled,90,73.88
+41,P0190,INS0190,2023-09-28,14:45,Lab Review,Primary Care,8,6,6,5,Cancelled,90,31.53
+42,P0243,INS0243,2024-03-01,17:30,Specialist Visit,Primary Care,10,2,6,4,No Show,45,14.13
+43,P0977,INS0977,2025-11-15,17:30,Specialist Visit,Cardiology,2,3,1,2,Scheduled,90,5.19
+44,P0863,INS0863,2023-02-18,12:45,Follow-up,Pediatrics,5,10,6,4,No Show,60,0.52
+45,P0052,INS0052,2023-01-03,09:45,Physical Therapy,Orthopedics,7,5,3,5,Cancelled,60,30.07
+46,P0587,INS0587,2025-07-06,16:45,Vaccination,Primary Care,7,14,2,4,No Show,60,51.8
+47,P0035,INS0035,2024-06-10,12:00,Routine Checkup,Orthopedics,4,6,3,2,Cancelled,30,2.82
+48,P0757,INS0757,2025-03-01,11:45,Physical Therapy,Cardiology,8,8,1,1,No Show,30,42.7
+49,P0390,INS0390,2024-04-01,12:15,Routine Checkup,Neurology,6,10,4,1,Completed,45,26.23
+50,P0166,INS0166,2025-12-19,09:45,Follow-up,Neurology,4,7,3,2,Scheduled,45,46.06
+51,P0939,INS0939,2025-12-10,16:30,Physical Therapy,Orthopedics,6,15,3,4,Cancelled,30,22.39
+52,P0339,INS0339,2024-06-20,11:15,Vaccination,Neurology,5,13,1,3,Scheduled,60,42.7
+53,P0618,INS0618,2024-05-15,16:15,Lab Review,Pediatrics,5,10,4,3,Completed,90,66.07
+54,P0899,INS0899,2025-04-19,11:00,Physical Therapy,Neurology,9,3,2,2,Scheduled,90,24.61
+55,P0431,INS0431,2023-09-20,16:45,Lab Review,Cardiology,10,11,5,5,No Show,15,18.69
+56,P0107,INS0107,2023-01-17,16:45,Specialist Visit,Primary Care,3,2,4,1,Cancelled,45,22.6
+57,P0873,INS0873,2025-11-28,12:15,Vaccination,Neurology,7,6,3,4,Completed,30,2.8
+58,P0011,INS0011,2023-03-29,11:30,Physical Therapy,Orthopedics,5,7,1,2,Completed,90,4.1
+59,P0029,INS0029,2023-10-17,18:30,Routine Checkup,Cardiology,2,4,6,4,No Show,60,64.82
+60,P0542,INS0542,2025-03-13,10:30,Physical Therapy,Pediatrics,8,1,5,4,Scheduled,90,45.71
+61,P0968,INS0968,2023-05-21,11:30,Physical Therapy,Pediatrics,4,5,6,3,Cancelled,60,16.6
+62,P0075,INS0075,2024-04-01,15:30,Routine Checkup,Cardiology,5,15,2,2,Cancelled,30,69.96
+63,P0759,INS0759,2023-10-05,07:15,Specialist Visit,Pediatrics,8,5,2,3,Cancelled,30,49.2
+64,P0020,INS0020,2024-09-08,10:45,Lab Review,Dermatology,7,9,6,4,Scheduled,15,41.41
+65,P0924,INS0924,2024-10-04,18:15,Physical Therapy,Pediatrics,7,13,5,1,Completed,15,48.5
+66,P0996,INS0996,2025-09-24,14:30,Routine Checkup,Orthopedics,5,4,1,3,Completed,45,4.38
+67,P0234,INS0234,2025-01-20,07:15,Specialist Visit,Dermatology,10,5,4,4,No Show,30,33.63
+68,P0345,INS0345,2023-11-23,10:15,Specialist Visit,Dermatology,3,10,2,1,Completed,15,10.08
+69,P0411,INS0411,2023-08-09,10:15,Routine Checkup,Cardiology,1,4,2,3,Cancelled,60,33.07
+70,P0752,INS0752,2023-09-09,17:45,Follow-up,Pediatrics,1,8,4,2,Cancelled,90,45.75
+71,P0769,INS0769,2024-10-07,10:00,Specialist Visit,Pediatrics,6,4,1,1,Completed,30,55.1
+72,P0570,INS0570,2024-06-13,14:15,Specialist Visit,Primary Care,4,5,6,2,Scheduled,30,40.51
+73,P0470,INS0470,2023-05-20,16:00,Routine Checkup,Orthopedics,3,3,6,2,No Show,15,66.08
+74,P0060,INS0060,2025-06-18,18:45,Vaccination,Neurology,9,8,6,1,Cancelled,60,24.08
+75,P0267,INS0267,2025-04-27,08:15,Vaccination,Primary Care,7,6,6,5,Completed,90,65.43
+76,P0452,INS0452,2023-11-12,17:45,Lab Review,Cardiology,6,9,1,2,Completed,45,44.91
+77,P0822,INS0822,2024-12-03,13:45,Physical Therapy,Pediatrics,5,15,5,2,Completed,60,18.68
+78,P0193,INS0193,2025-07-13,16:00,Specialist Visit,Primary Care,3,2,1,1,Scheduled,90,34.34
+79,P0526,INS0526,2023-03-27,10:30,Lab Review,Dermatology,7,13,6,5,Scheduled,15,34.08
+80,P0051,INS0051,2025-09-19,11:00,Lab Review,Cardiology,10,3,3,1,No Show,45,13.37
+81,P0326,INS0326,2023-08-13,14:00,Specialist Visit,Cardiology,3,15,4,4,No Show,30,16.52
+82,P0466,INS0466,2024-01-08,09:00,Vaccination,Pediatrics,3,3,1,4,Completed,60,50.93
+83,P0702,INS0702,2024-06-17,16:45,Specialist Visit,Cardiology,1,12,5,2,Completed,45,22.08
+84,P0454,INS0454,2023-02-07,11:45,Physical Therapy,Dermatology,10,15,3,1,No Show,60,1.56
+85,P0171,INS0171,2023-01-22,12:45,Physical Therapy,Neurology,6,2,5,3,Completed,60,37.26
+86,P0639,INS0639,2024-01-08,13:45,Lab Review,Neurology,4,3,5,3,Cancelled,30,20.1
+87,P0464,INS0464,2025-10-16,14:30,Specialist Visit,Cardiology,6,10,2,1,Cancelled,15,66.44
+88,P0358,INS0358,2023-06-21,09:15,Routine Checkup,Neurology,6,10,6,2,Completed,90,21.44
+89,P0074,INS0074,2024-10-22,13:15,Routine Checkup,Cardiology,10,6,3,5,Cancelled,30,32.69
+90,P0475,INS0475,2023-11-12,17:45,Specialist Visit,Dermatology,5,11,2,1,Cancelled,60,5.7
+91,P0680,INS0680,2024-06-14,16:00,Lab Review,Neurology,9,6,1,2,Completed,15,16.73
+92,P0552,INS0552,2023-03-24,07:30,Physical Therapy,Dermatology,4,12,2,1,Scheduled,30,63.79
+93,P0097,INS0097,2023-12-21,08:30,Lab Review,Pediatrics,9,11,1,3,Completed,60,40.76
+94,P0549,INS0549,2025-10-19,13:30,Routine Checkup,Primary Care,10,2,5,3,No Show,90,40.29
+95,P0399,INS0399,2024-09-25,11:15,Lab Review,Primary Care,1,13,4,2,Cancelled,60,47.87
+96,P0492,INS0492,2024-05-15,12:30,Lab Review,Orthopedics,7,5,4,3,Scheduled,90,32.65
+97,P0133,INS0133,2024-03-21,11:15,Routine Checkup,Dermatology,3,12,4,2,Completed,15,14.5
+98,P0018,INS0018,2024-09-17,18:00,Routine Checkup,Pediatrics,3,10,3,5,Completed,15,21.11
+99,P0498,INS0498,2025-11-12,16:00,Routine Checkup,Orthopedics,10,8,2,4,No Show,90,51.8
+100,P0099,INS0099,2023-11-26,15:15,Routine Checkup,Neurology,9,1,1,2,Cancelled,60,30.74
+101,P0756,INS0756,2023-12-11,18:00,Routine Checkup,Primary Care,6,15,2,2,No Show,30,40.8
+102,P0194,INS0194,2023-07-17,07:30,Lab Review,Primary Care,6,13,2,3,Completed,90,67.44
+103,P0564,INS0564,2023-01-04,12:15,Follow-up,Dermatology,3,11,5,5,Scheduled,15,33.83
+104,P0547,INS0547,2025-06-04,09:45,Follow-up,Cardiology,4,3,5,2,Cancelled,30,16.09
+105,P0496,INS0496,2025-04-14,18:00,Physical Therapy,Pediatrics,2,15,6,5,Cancelled,30,29.82
+106,P0108,INS0108,2024-05-22,13:30,Routine Checkup,Primary Care,2,4,2,5,Completed,30,67.51
+107,P0735,INS0735,2023-11-09,08:15,Vaccination,Cardiology,8,12,5,1,Cancelled,45,53.12
+108,P0783,INS0783,2023-02-10,13:45,Follow-up,Orthopedics,2,11,1,4,No Show,90,12.53
+109,P0651,INS0651,2025-12-06,08:30,Specialist Visit,Primary Care,10,3,4,5,Cancelled,60,8.76
+110,P0941,INS0941,2025-10-27,18:00,Vaccination,Dermatology,7,10,5,2,No Show,45,49.56
+111,P0183,INS0183,2023-02-04,18:15,Lab Review,Orthopedics,7,6,6,4,Cancelled,30,45.87
+112,P0363,INS0363,2023-07-12,09:30,Follow-up,Cardiology,5,10,5,5,Completed,45,24.46
+113,P0617,INS0617,2024-07-12,17:45,Lab Review,Neurology,1,13,4,3,Completed,90,64.62
+114,P0024,INS0024,2025-06-30,11:45,Specialist Visit,Dermatology,7,7,5,3,Scheduled,60,43.06
+115,P0406,INS0406,2025-09-19,07:00,Physical Therapy,Dermatology,8,5,6,4,No Show,90,26.4
+116,P0633,INS0633,2024-08-05,13:30,Routine Checkup,Dermatology,4,13,5,5,No Show,15,30.82
+117,P0249,INS0249,2024-08-14,14:30,Specialist Visit,Orthopedics,10,9,5,1,Cancelled,45,58.23
+118,P0547,INS0547,2023-02-27,11:30,Vaccination,Primary Care,10,3,6,5,Cancelled,15,24.5
+119,P0176,INS0176,2023-08-31,07:15,Follow-up,Cardiology,8,1,4,4,No Show,90,45.14
+120,P0063,INS0063,2023-02-07,15:15,Vaccination,Dermatology,5,6,5,1,Completed,15,41.72
+121,P0553,INS0553,2024-01-25,17:00,Vaccination,Orthopedics,5,11,5,5,Completed,90,44.63
+122,P0486,INS0486,2024-06-20,18:00,Physical Therapy,Pediatrics,7,14,2,1,Completed,60,59.12
+123,P0938,INS0938,2023-01-27,07:00,Specialist Visit,Primary Care,6,12,4,4,Scheduled,90,66.65
+124,P0798,INS0798,2024-12-29,17:15,Routine Checkup,Pediatrics,7,5,1,5,No Show,90,14.37
+125,P0449,INS0449,2024-08-25,13:45,Physical Therapy,Primary Care,9,13,4,1,Scheduled,90,35.41
+126,P0425,INS0425,2023-03-13,07:00,Lab Review,Cardiology,7,6,6,1,Scheduled,30,20.35
+127,P0303,INS0303,2024-09-12,11:15,Physical Therapy,Dermatology,1,7,4,3,No Show,60,41.9
+128,P0952,INS0952,2025-03-31,12:15,Vaccination,Primary Care,7,3,2,1,No Show,45,45.85
+129,P0447,INS0447,2025-09-05,09:30,Follow-up,Cardiology,3,14,2,1,Scheduled,45,17.69
+130,P0955,INS0955,2024-08-26,14:00,Vaccination,Orthopedics,5,8,4,3,No Show,45,27.93
+131,P0229,INS0229,2025-06-14,12:15,Routine Checkup,Cardiology,9,4,3,1,Cancelled,15,72.71
+132,P0295,INS0295,2024-11-13,18:30,Specialist Visit,Primary Care,3,12,5,1,Scheduled,30,29.58
+133,P0675,INS0675,2024-01-14,08:00,Lab Review,Orthopedics,4,15,6,2,Cancelled,60,11.78
+134,P0791,INS0791,2024-07-08,15:15,Physical Therapy,Pediatrics,9,6,6,3,No Show,30,13.57
+135,P0685,INS0685,2024-09-17,09:30,Specialist Visit,Neurology,6,2,4,1,No Show,60,27.62
+136,P0087,INS0087,2025-07-07,08:00,Vaccination,Primary Care,9,14,6,1,No Show,45,44.95
+137,P0265,INS0265,2025-07-06,14:30,Vaccination,Orthopedics,4,13,3,2,No Show,30,22.32
+138,P0895,INS0895,2025-12-19,18:30,Routine Checkup,Orthopedics,2,6,5,3,Cancelled,30,19.5
+139,P0868,INS0868,2024-02-21,07:30,Specialist Visit,Orthopedics,9,9,1,2,Completed,15,39.74
+140,P0432,INS0432,2023-06-20,08:15,Specialist Visit,Neurology,9,15,5,2,Cancelled,15,38.47
+141,P0519,INS0519,2023-12-25,15:00,Vaccination,Cardiology,8,9,4,2,Scheduled,45,62.04
+142,P0446,INS0446,2024-01-12,12:00,Vaccination,Cardiology,2,8,6,3,Cancelled,45,62.38
+143,P0218,INS0218,2024-11-01,18:15,Follow-up,Dermatology,1,2,5,5,Scheduled,45,31.86
+144,P0490,INS0490,2024-01-21,11:30,Follow-up,Orthopedics,2,12,4,4,Cancelled,30,44.44
+145,P0408,INS0408,2023-05-14,11:15,Specialist Visit,Orthopedics,3,10,5,5,No Show,60,47.18
+146,P0441,INS0441,2024-06-20,12:00,Physical Therapy,Dermatology,10,10,1,1,Scheduled,15,39.92
+147,P0568,INS0568,2024-11-27,14:15,Physical Therapy,Primary Care,9,15,2,3,Completed,15,52.82
+148,P0554,INS0554,2025-04-18,17:30,Vaccination,Cardiology,5,7,3,5,No Show,90,56.33
+149,P0923,INS0923,2025-07-26,16:30,Follow-up,Cardiology,9,15,3,4,No Show,90,26.14
+150,P0533,INS0533,2023-09-16,15:00,Physical Therapy,Primary Care,3,3,1,4,Cancelled,90,45.69
+151,P0919,INS0919,2023-06-01,09:30,Physical Therapy,Dermatology,4,11,5,4,Scheduled,60,1.08
+152,P0337,INS0337,2025-12-19,11:30,Vaccination,Primary Care,5,13,2,4,Cancelled,30,39.23
+153,P0401,INS0401,2025-12-07,08:00,Specialist Visit,Neurology,4,11,1,2,No Show,60,63.67
+154,P0117,INS0117,2023-06-17,16:15,Physical Therapy,Orthopedics,9,2,3,3,Scheduled,15,55.34
+155,P0633,INS0633,2023-12-08,08:45,Follow-up,Dermatology,1,6,3,2,Cancelled,60,43.89
+156,P0227,INS0227,2025-02-04,08:30,Lab Review,Dermatology,9,13,1,4,Scheduled,45,14.64
+157,P0690,INS0690,2025-03-19,07:00,Routine Checkup,Dermatology,4,13,5,1,Scheduled,30,71.89
+158,P0546,INS0546,2023-09-15,16:45,Vaccination,Cardiology,6,6,1,2,Cancelled,15,43.05
+159,P0707,INS0707,2025-12-23,12:00,Physical Therapy,Neurology,2,1,3,3,Scheduled,30,22.45
+160,P0732,INS0732,2025-08-02,10:45,Routine Checkup,Pediatrics,9,8,2,4,Cancelled,30,68.63
+161,P0081,INS0081,2024-03-20,18:30,Physical Therapy,Neurology,10,7,5,2,Completed,45,18.15
+162,P0634,INS0634,2023-05-04,18:00,Lab Review,Pediatrics,9,6,4,1,No Show,45,33.78
+163,P0253,INS0253,2023-06-26,17:30,Follow-up,Orthopedics,4,10,4,5,Completed,45,26.0
+164,P0899,INS0899,2023-08-25,08:45,Vaccination,Cardiology,7,11,5,1,Completed,90,68.33
+165,P0483,INS0483,2025-09-22,09:45,Routine Checkup,Cardiology,9,10,4,4,Cancelled,15,25.73
+166,P0256,INS0256,2024-08-27,09:00,Follow-up,Pediatrics,5,2,6,4,Scheduled,15,67.0
+167,P0639,INS0639,2025-08-03,12:15,Vaccination,Dermatology,5,7,3,1,No Show,15,2.81
+168,P0686,INS0686,2023-01-03,09:45,Specialist Visit,Primary Care,5,3,4,4,Completed,60,10.07
+169,P0878,INS0878,2025-11-08,08:30,Lab Review,Pediatrics,5,8,1,5,Completed,90,23.77
+170,P0217,INS0217,2023-02-14,16:45,Physical Therapy,Primary Care,7,8,4,3,Scheduled,90,13.03
+171,P0518,INS0518,2024-07-23,16:45,Vaccination,Pediatrics,6,2,6,2,No Show,90,56.15
+172,P0465,INS0465,2023-10-06,14:00,Follow-up,Pediatrics,4,1,6,4,Scheduled,15,56.82
+173,P0860,INS0860,2024-07-08,18:00,Specialist Visit,Pediatrics,4,10,5,5,Scheduled,90,37.01
+174,P0562,INS0562,2025-08-20,14:30,Physical Therapy,Cardiology,4,4,4,3,Cancelled,60,1.04
+175,P0258,INS0258,2023-07-13,10:00,Physical Therapy,Primary Care,10,15,1,3,Completed,90,61.94
+176,P0895,INS0895,2025-05-08,07:15,Physical Therapy,Cardiology,7,3,3,3,Completed,15,69.29
+177,P0070,INS0070,2023-12-15,10:00,Physical Therapy,Primary Care,6,8,4,2,Scheduled,45,56.85
+178,P0068,INS0068,2023-02-10,07:45,Lab Review,Dermatology,5,2,5,2,Completed,45,27.84
+179,P0800,INS0800,2024-05-06,15:00,Routine Checkup,Dermatology,8,12,5,3,Scheduled,30,10.81
+180,P0284,INS0284,2025-08-11,07:45,Specialist Visit,Neurology,7,5,5,4,Completed,30,13.31
+181,P0081,INS0081,2025-10-12,11:15,Specialist Visit,Pediatrics,1,5,6,2,Completed,60,7.48
+182,P0547,INS0547,2023-04-16,07:15,Vaccination,Orthopedics,9,7,1,4,Completed,15,35.62
+183,P0153,INS0153,2025-03-28,14:15,Routine Checkup,Cardiology,1,1,5,3,Completed,60,66.99
+184,P0425,INS0425,2023-10-05,08:30,Specialist Visit,Orthopedics,9,10,1,1,No Show,60,35.68
+185,P0321,INS0321,2023-03-03,07:00,Follow-up,Cardiology,3,6,5,1,Scheduled,60,16.21
+186,P0473,INS0473,2023-07-03,10:00,Lab Review,Orthopedics,3,3,1,1,Completed,90,60.97
+187,P0580,INS0580,2023-03-26,18:45,Routine Checkup,Neurology,7,8,2,2,Scheduled,15,60.32
+188,P0260,INS0260,2024-10-09,18:30,Lab Review,Orthopedics,2,8,1,5,Completed,90,60.58
+189,P0988,INS0988,2023-05-21,14:00,Follow-up,Pediatrics,5,4,4,1,Completed,30,56.97
+190,P0301,INS0301,2023-09-27,09:30,Specialist Visit,Primary Care,7,1,2,3,Completed,30,68.35
+191,P0277,INS0277,2023-06-18,09:00,Physical Therapy,Pediatrics,5,12,4,4,Completed,60,46.28
+192,P0214,INS0214,2024-01-10,13:30,Vaccination,Primary Care,4,15,2,4,Cancelled,15,48.87
+193,P0618,INS0618,2024-09-06,18:00,Lab Review,Cardiology,5,6,6,3,No Show,15,28.67
+194,P0135,INS0135,2023-08-05,08:00,Vaccination,Dermatology,10,15,1,2,Cancelled,90,66.06
+195,P0776,INS0776,2024-08-07,18:45,Vaccination,Orthopedics,9,7,5,4,Completed,30,34.77
+196,P0061,INS0061,2023-01-20,15:30,Vaccination,Orthopedics,5,1,5,2,Cancelled,90,73.23
+197,P0579,INS0579,2023-08-13,16:00,Follow-up,Pediatrics,10,14,5,2,Scheduled,60,22.56
+198,P0052,INS0052,2025-04-06,16:15,Follow-up,Dermatology,3,14,2,3,Completed,45,40.52
+199,P0523,INS0523,2025-06-14,11:45,Routine Checkup,Dermatology,3,2,2,5,Cancelled,45,20.57
+200,P0192,INS0192,2023-10-31,18:00,Specialist Visit,Primary Care,3,4,6,4,Completed,15,26.95
+201,P0337,INS0337,2023-01-04,10:15,Routine Checkup,Primary Care,1,1,5,5,Cancelled,30,59.5
+202,P0762,INS0762,2025-04-05,14:15,Physical Therapy,Primary Care,10,1,1,5,Scheduled,15,18.91
+203,P0416,INS0416,2023-01-06,07:00,Follow-up,Dermatology,3,14,2,2,Cancelled,30,70.04
+204,P0760,INS0760,2025-12-25,16:45,Lab Review,Neurology,10,1,4,1,No Show,45,40.75
+205,P0863,INS0863,2023-06-18,15:45,Follow-up,Pediatrics,7,4,1,1,Scheduled,90,61.2
+206,P0996,INS0996,2025-11-20,11:15,Specialist Visit,Orthopedics,2,15,1,2,Cancelled,15,69.72
+207,P0536,INS0536,2023-06-24,12:00,Lab Review,Dermatology,9,11,3,3,No Show,90,10.61
+208,P0588,INS0588,2024-09-24,09:00,Specialist Visit,Neurology,5,13,6,1,Scheduled,45,15.26
+209,P0781,INS0781,2024-05-04,11:45,Follow-up,Primary Care,8,6,4,5,No Show,45,43.65
+210,P0721,INS0721,2024-07-13,13:45,Follow-up,Cardiology,1,2,1,5,Completed,45,66.09
+211,P0739,INS0739,2023-02-02,09:00,Lab Review,Dermatology,3,15,2,2,Cancelled,90,69.18
+212,P0296,INS0296,2023-01-03,09:45,Specialist Visit,Primary Care,9,6,5,1,Cancelled,45,51.66
+213,P0927,INS0927,2023-10-06,14:15,Vaccination,Neurology,4,7,3,2,Completed,45,74.68
+214,P0018,INS0018,2023-01-18,11:00,Specialist Visit,Dermatology,2,13,5,2,No Show,15,41.17
+215,P0704,INS0704,2025-05-07,08:15,Lab Review,Pediatrics,6,10,1,3,Cancelled,15,66.25
+216,P0063,INS0063,2025-08-09,16:15,Specialist Visit,Primary Care,5,7,4,1,Scheduled,15,9.58
+217,P0249,INS0249,2025-12-05,09:45,Routine Checkup,Primary Care,2,12,6,2,Completed,30,42.58
+218,P0948,INS0948,2025-05-24,08:30,Routine Checkup,Cardiology,1,11,3,5,No Show,15,37.33
+219,P0440,INS0440,2025-06-10,12:15,Lab Review,Pediatrics,5,7,6,1,No Show,30,67.04
+220,P0451,INS0451,2025-05-08,10:30,Follow-up,Primary Care,2,10,1,3,Completed,15,27.45
+221,P0737,INS0737,2024-02-24,18:30,Follow-up,Cardiology,5,4,3,5,Cancelled,15,36.84
+222,P0420,INS0420,2023-12-13,09:30,Routine Checkup,Neurology,3,14,4,2,Cancelled,60,74.01
+223,P0522,INS0522,2025-03-13,13:45,Vaccination,Neurology,7,3,2,3,Scheduled,90,65.95
+224,P0906,INS0906,2025-04-17,15:45,Physical Therapy,Pediatrics,10,5,4,4,Scheduled,30,43.36
+225,P0655,INS0655,2024-03-01,12:00,Routine Checkup,Orthopedics,2,13,5,3,Cancelled,45,73.02
+226,P0129,INS0129,2024-04-26,12:30,Specialist Visit,Pediatrics,1,5,6,4,Cancelled,90,11.43
+227,P0114,INS0114,2023-11-05,08:30,Lab Review,Orthopedics,5,10,6,3,Completed,45,19.26
+228,P0805,INS0805,2023-12-19,07:45,Lab Review,Neurology,5,13,3,1,Scheduled,15,50.29
+229,P0628,INS0628,2025-10-06,10:00,Physical Therapy,Cardiology,8,4,1,4,Completed,45,16.9
+230,P0694,INS0694,2024-08-11,15:15,Lab Review,Primary Care,9,9,3,5,Cancelled,90,1.74
+231,P0415,INS0415,2025-04-09,11:00,Vaccination,Primary Care,2,1,2,1,Completed,45,23.33
+232,P0673,INS0673,2024-07-25,08:15,Specialist Visit,Primary Care,2,12,4,1,No Show,90,55.8
+233,P0541,INS0541,2025-05-18,07:15,Follow-up,Cardiology,2,12,6,5,Cancelled,15,74.06
+234,P0208,INS0208,2023-12-01,07:15,Routine Checkup,Dermatology,8,9,5,5,Scheduled,15,6.71
+235,P0283,INS0283,2023-03-08,07:15,Vaccination,Orthopedics,2,4,1,4,Scheduled,90,61.7
+236,P0781,INS0781,2025-04-29,07:00,Lab Review,Orthopedics,3,13,3,5,Scheduled,90,19.38
+237,P0596,INS0596,2024-08-06,17:45,Physical Therapy,Pediatrics,6,15,1,1,Scheduled,30,71.87
+238,P0349,INS0349,2024-04-02,12:15,Lab Review,Primary Care,1,8,2,5,Cancelled,90,55.85
+239,P0483,INS0483,2023-10-09,14:00,Lab Review,Cardiology,8,2,4,1,Cancelled,15,41.44
+240,P0525,INS0525,2023-08-16,16:45,Specialist Visit,Cardiology,4,11,5,5,Cancelled,45,36.08
+241,P0794,INS0794,2023-09-05,15:15,Follow-up,Pediatrics,4,1,4,4,Scheduled,15,13.65
+242,P0294,INS0294,2023-01-31,17:30,Vaccination,Orthopedics,9,1,1,2,No Show,45,14.56
+243,P0787,INS0787,2023-10-04,10:45,Specialist Visit,Cardiology,2,7,5,1,Cancelled,90,50.17
+244,P0392,INS0392,2024-12-22,14:30,Follow-up,Neurology,8,1,4,4,No Show,15,32.77
+245,P0707,INS0707,2023-08-31,10:30,Lab Review,Neurology,3,2,3,1,Scheduled,60,67.1
+246,P0844,INS0844,2023-10-25,13:00,Routine Checkup,Orthopedics,1,4,2,3,Scheduled,90,57.51
+247,P0915,INS0915,2023-11-17,11:15,Lab Review,Neurology,2,10,5,2,Completed,45,40.64
+248,P0300,INS0300,2025-10-27,08:15,Routine Checkup,Primary Care,5,15,1,4,Scheduled,15,23.73
+249,P0235,INS0235,2023-04-06,09:00,Vaccination,Primary Care,7,8,6,3,Cancelled,45,30.32
+250,P0814,INS0814,2024-05-16,10:30,Specialist Visit,Pediatrics,9,2,1,1,No Show,15,61.51
+251,P0902,INS0902,2024-07-19,14:45,Vaccination,Cardiology,8,9,5,4,Scheduled,45,35.43
+252,P0566,INS0566,2024-11-21,12:00,Specialist Visit,Dermatology,2,15,4,4,No Show,15,10.05
+253,P0607,INS0607,2025-02-01,16:45,Physical Therapy,Primary Care,6,6,3,2,Cancelled,15,57.18
+254,P0832,INS0832,2025-08-03,09:15,Lab Review,Orthopedics,1,3,3,3,Cancelled,45,57.88
+255,P0433,INS0433,2025-08-05,14:15,Routine Checkup,Pediatrics,2,8,1,1,Cancelled,30,4.59
+256,P0513,INS0513,2025-08-07,08:30,Follow-up,Pediatrics,8,9,6,2,Cancelled,15,16.24
+257,P0499,INS0499,2024-10-13,11:15,Physical Therapy,Primary Care,3,15,4,3,Scheduled,45,37.74
+258,P0333,INS0333,2025-07-29,17:15,Follow-up,Primary Care,3,10,2,3,No Show,60,51.39
+259,P0413,INS0413,2023-10-30,14:15,Physical Therapy,Dermatology,5,1,4,4,Cancelled,45,10.21
+260,P0457,INS0457,2025-02-11,17:15,Specialist Visit,Orthopedics,2,14,6,2,No Show,30,54.5
+261,P0991,INS0991,2025-04-01,14:45,Lab Review,Cardiology,6,10,2,2,Cancelled,90,62.69
+262,P0622,INS0622,2023-04-17,13:00,Vaccination,Dermatology,9,7,5,2,Completed,15,52.04
+263,P0799,INS0799,2025-01-28,10:30,Routine Checkup,Pediatrics,1,11,5,5,Completed,60,15.0
+264,P0429,INS0429,2023-06-21,12:45,Follow-up,Pediatrics,1,6,2,3,Cancelled,60,4.33
+265,P0486,INS0486,2025-10-21,16:45,Follow-up,Neurology,6,6,3,2,Cancelled,15,44.0
+266,P0884,INS0884,2023-02-26,10:30,Specialist Visit,Cardiology,8,4,4,2,Cancelled,30,13.52
+267,P0724,INS0724,2023-12-27,09:15,Follow-up,Primary Care,2,13,1,4,No Show,60,31.94
+268,P0124,INS0124,2025-10-04,08:45,Specialist Visit,Primary Care,5,3,5,5,No Show,15,21.67
+269,P0858,INS0858,2025-04-07,16:15,Routine Checkup,Pediatrics,3,2,4,5,Scheduled,30,43.84
+270,P0826,INS0826,2024-01-02,09:00,Specialist Visit,Neurology,7,10,5,1,Scheduled,45,13.83
+271,P0408,INS0408,2024-07-04,14:00,Routine Checkup,Orthopedics,9,1,1,4,Cancelled,15,69.12
+272,P0826,INS0826,2023-06-14,13:15,Follow-up,Primary Care,6,11,1,1,No Show,90,14.87
+273,P0190,INS0190,2025-04-26,14:15,Vaccination,Pediatrics,7,10,2,1,Cancelled,30,42.24
+274,P0802,INS0802,2025-06-27,13:15,Physical Therapy,Primary Care,9,4,5,1,Cancelled,45,19.51
+275,P0161,INS0161,2024-12-17,16:30,Routine Checkup,Neurology,10,4,6,5,Completed,30,34.65
+276,P0162,INS0162,2025-10-07,09:00,Specialist Visit,Dermatology,2,14,4,2,No Show,15,22.38
+277,P0791,INS0791,2025-05-29,07:15,Follow-up,Neurology,7,8,4,3,Completed,60,64.73
+278,P0567,INS0567,2024-09-14,12:15,Physical Therapy,Orthopedics,5,10,6,5,No Show,15,33.95
+279,P0001,INS0001,2025-11-01,15:45,Vaccination,Primary Care,7,12,4,3,Cancelled,15,12.72
+280,P0559,INS0559,2023-01-21,17:00,Physical Therapy,Cardiology,10,1,2,2,Scheduled,45,58.25
+281,P0968,INS0968,2024-09-04,10:00,Vaccination,Pediatrics,9,10,1,5,Completed,30,67.41
+282,P0357,INS0357,2024-01-30,10:15,Specialist Visit,Primary Care,3,4,3,1,Scheduled,30,60.72
+283,P0928,INS0928,2024-11-09,12:00,Routine Checkup,Dermatology,4,6,3,3,Scheduled,30,64.15
+284,P0595,INS0595,2025-10-29,15:30,Lab Review,Cardiology,10,4,2,2,Completed,45,63.74
+285,P0404,INS0404,2023-12-01,16:45,Specialist Visit,Primary Care,9,1,3,5,Completed,15,9.47
+286,P0990,INS0990,2024-07-05,11:00,Specialist Visit,Dermatology,1,8,3,5,Cancelled,45,68.08
+287,P0627,INS0627,2023-10-02,07:00,Specialist Visit,Cardiology,8,7,2,1,Cancelled,60,23.17
+288,P0381,INS0381,2024-07-23,09:00,Routine Checkup,Orthopedics,3,10,3,1,Completed,60,25.64
+289,P0816,INS0816,2023-07-20,16:15,Specialist Visit,Orthopedics,8,2,6,2,Scheduled,60,27.93
+290,P0740,INS0740,2025-03-31,09:45,Vaccination,Orthopedics,6,3,6,5,Cancelled,45,28.73
+291,P0919,INS0919,2023-10-18,18:00,Physical Therapy,Orthopedics,2,8,2,1,Scheduled,90,44.48
+292,P0676,INS0676,2025-12-27,11:30,Specialist Visit,Pediatrics,1,4,2,1,Scheduled,45,51.83
+293,P0881,INS0881,2024-11-10,12:00,Vaccination,Primary Care,5,4,6,2,Scheduled,90,47.99
+294,P0307,INS0307,2024-05-01,17:00,Physical Therapy,Orthopedics,8,15,5,4,Completed,45,34.96
+295,P0998,INS0998,2023-09-17,12:30,Specialist Visit,Cardiology,2,9,5,2,No Show,45,52.53
+296,P0553,INS0553,2023-08-13,16:15,Lab Review,Primary Care,5,13,5,4,Cancelled,15,32.36
+297,P0650,INS0650,2025-02-21,16:15,Specialist Visit,Cardiology,3,10,5,5,Cancelled,45,7.15
+298,P0894,INS0894,2023-04-28,09:30,Follow-up,Neurology,9,11,3,4,No Show,15,66.26
+299,P0342,INS0342,2025-10-28,12:15,Lab Review,Dermatology,3,13,3,4,Cancelled,30,30.34
+300,P0177,INS0177,2023-02-06,18:30,Follow-up,Orthopedics,3,11,5,2,No Show,45,69.3
+301,P0883,INS0883,2024-10-15,18:30,Routine Checkup,Dermatology,7,3,5,2,Completed,30,65.22
+302,P0009,INS0009,2023-08-06,15:15,Vaccination,Neurology,7,3,3,4,Completed,90,30.84
+303,P0604,INS0604,2024-05-30,09:00,Routine Checkup,Cardiology,3,4,3,1,No Show,90,43.0
+304,P0609,INS0609,2023-01-24,07:45,Follow-up,Cardiology,8,1,2,4,Cancelled,15,19.67
+305,P0851,INS0851,2024-12-02,07:30,Follow-up,Cardiology,3,2,4,3,Scheduled,15,53.79
+306,P0630,INS0630,2023-06-03,07:00,Physical Therapy,Cardiology,4,6,2,5,Completed,30,12.02
+307,P0857,INS0857,2025-08-07,08:00,Physical Therapy,Cardiology,7,14,1,1,Cancelled,15,69.88
+308,P0148,INS0148,2025-08-02,14:00,Vaccination,Orthopedics,5,7,1,4,Scheduled,60,73.17
+309,P0892,INS0892,2023-09-23,13:30,Specialist Visit,Neurology,9,12,3,1,Scheduled,90,24.42
+310,P0475,INS0475,2023-12-22,10:30,Follow-up,Primary Care,8,14,4,2,Completed,15,15.42
+311,P0889,INS0889,2024-02-10,13:00,Routine Checkup,Neurology,10,5,3,1,Cancelled,45,10.29
+312,P0205,INS0205,2023-07-23,13:30,Vaccination,Pediatrics,2,15,6,2,Cancelled,30,34.79
+313,P0675,INS0675,2025-03-06,15:30,Follow-up,Orthopedics,1,7,6,2,No Show,90,21.92
+314,P0639,INS0639,2023-04-03,11:45,Routine Checkup,Orthopedics,6,14,3,1,Cancelled,15,74.85
+315,P0856,INS0856,2025-10-09,16:15,Specialist Visit,Pediatrics,3,1,2,3,Completed,60,23.07
+316,P0791,INS0791,2024-07-01,08:45,Specialist Visit,Cardiology,5,6,4,3,Completed,90,61.79
+317,P0587,INS0587,2024-06-07,14:00,Specialist Visit,Pediatrics,5,13,5,3,Completed,60,63.16
+318,P0141,INS0141,2025-05-06,15:00,Vaccination,Neurology,8,3,2,5,Cancelled,45,4.74
+319,P0013,INS0013,2023-01-07,16:30,Specialist Visit,Dermatology,6,11,3,4,No Show,30,6.85
+320,P0744,INS0744,2024-07-24,10:30,Physical Therapy,Dermatology,1,14,1,5,Completed,60,40.02
+321,P0269,INS0269,2025-05-25,07:30,Follow-up,Neurology,7,12,1,3,Completed,60,37.89
+322,P0929,INS0929,2025-12-06,11:30,Specialist Visit,Orthopedics,1,7,6,4,Scheduled,90,56.43
+323,P0864,INS0864,2024-12-20,13:30,Follow-up,Orthopedics,3,11,4,2,Cancelled,90,69.35
+324,P0923,INS0923,2023-05-18,12:30,Lab Review,Primary Care,9,6,5,5,Scheduled,15,11.19
+325,P0487,INS0487,2023-12-08,16:00,Routine Checkup,Dermatology,5,6,1,4,Cancelled,15,21.75
+326,P0242,INS0242,2025-01-14,13:45,Routine Checkup,Pediatrics,1,4,6,2,Cancelled,45,68.61
+327,P0607,INS0607,2025-11-08,10:15,Routine Checkup,Orthopedics,8,11,4,2,Scheduled,60,35.33
+328,P0811,INS0811,2023-09-04,15:15,Specialist Visit,Neurology,3,7,4,4,No Show,15,46.07
+329,P0790,INS0790,2025-11-14,14:45,Vaccination,Cardiology,9,13,3,5,Scheduled,60,35.3
+330,P0211,INS0211,2025-04-29,10:30,Lab Review,Cardiology,9,12,5,5,Cancelled,60,1.81
+331,P0865,INS0865,2024-10-06,17:30,Routine Checkup,Neurology,5,10,2,2,Scheduled,60,4.4
+332,P0664,INS0664,2025-05-15,18:00,Physical Therapy,Orthopedics,8,1,4,4,Completed,30,62.92
+333,P0781,INS0781,2023-05-23,13:15,Physical Therapy,Neurology,1,8,2,5,Completed,90,62.95
+334,P0083,INS0083,2023-11-24,14:00,Physical Therapy,Cardiology,7,12,3,2,Completed,60,6.78
+335,P0756,INS0756,2023-01-13,15:45,Vaccination,Dermatology,5,3,4,5,No Show,30,2.27
+336,P0736,INS0736,2024-04-25,08:15,Vaccination,Pediatrics,10,12,1,1,No Show,45,58.13
+337,P0626,INS0626,2025-05-07,14:00,Follow-up,Dermatology,3,2,5,3,Cancelled,30,0.15
+338,P0265,INS0265,2025-12-22,09:30,Specialist Visit,Dermatology,9,12,3,2,Scheduled,30,58.71
+339,P0711,INS0711,2023-06-04,14:00,Follow-up,Orthopedics,9,14,1,4,Cancelled,45,49.75
+340,P0695,INS0695,2023-08-22,12:00,Routine Checkup,Orthopedics,5,15,5,2,Scheduled,45,0.11
+341,P0963,INS0963,2025-07-08,07:00,Follow-up,Primary Care,10,3,4,3,Scheduled,60,65.99
+342,P0209,INS0209,2023-03-05,15:00,Physical Therapy,Neurology,2,8,2,4,Completed,90,12.42
+343,P0969,INS0969,2025-04-29,15:15,Lab Review,Pediatrics,5,14,5,3,Scheduled,15,34.32
+344,P0529,INS0529,2025-11-05,17:30,Physical Therapy,Cardiology,8,11,3,1,Scheduled,60,40.49
+345,P0434,INS0434,2023-08-19,18:45,Routine Checkup,Cardiology,8,7,4,2,Scheduled,90,2.48
+346,P0137,INS0137,2023-02-04,10:00,Follow-up,Primary Care,3,15,4,2,No Show,45,20.2
+347,P0334,INS0334,2025-02-20,17:15,Lab Review,Pediatrics,6,9,6,4,Scheduled,15,13.4
+348,P0754,INS0754,2024-08-27,17:15,Vaccination,Cardiology,6,4,4,5,Scheduled,90,6.75
+349,P0949,INS0949,2023-11-16,10:45,Vaccination,Cardiology,1,3,5,3,Cancelled,60,61.72
+350,P0950,INS0950,2023-05-01,10:45,Lab Review,Orthopedics,1,3,3,2,Cancelled,45,9.97
+351,P0784,INS0784,2024-09-23,07:30,Vaccination,Cardiology,7,5,5,1,Cancelled,45,58.42
+352,P0286,INS0286,2023-02-03,10:45,Lab Review,Pediatrics,9,9,2,1,No Show,90,33.88
+353,P0511,INS0511,2024-05-24,15:30,Vaccination,Neurology,7,7,2,2,Completed,30,32.09
+354,P0391,INS0391,2025-04-05,14:45,Vaccination,Dermatology,2,3,3,5,No Show,90,61.24
+355,P0992,INS0992,2023-12-23,09:00,Vaccination,Cardiology,10,9,4,2,Completed,60,42.28
+356,P0132,INS0132,2023-01-23,13:45,Follow-up,Primary Care,8,15,5,5,Cancelled,30,14.19
+357,P0354,INS0354,2025-02-11,16:15,Physical Therapy,Neurology,10,13,6,5,Completed,30,24.05
+358,P0567,INS0567,2025-09-04,13:45,Lab Review,Orthopedics,8,10,2,3,Cancelled,15,22.58
+359,P0253,INS0253,2024-06-05,15:15,Routine Checkup,Dermatology,5,15,5,2,Scheduled,45,15.01
+360,P0541,INS0541,2024-01-24,16:00,Specialist Visit,Cardiology,7,1,1,1,Scheduled,45,22.31
+361,P0669,INS0669,2025-08-13,13:15,Physical Therapy,Neurology,2,13,3,2,Scheduled,45,54.83
+362,P0578,INS0578,2023-05-25,10:30,Routine Checkup,Primary Care,4,9,5,4,No Show,30,67.59
+363,P0864,INS0864,2025-08-20,09:00,Physical Therapy,Dermatology,9,7,6,3,Cancelled,45,11.98
+364,P0805,INS0805,2023-10-05,11:00,Vaccination,Dermatology,3,1,5,2,Completed,45,62.37
+365,P0032,INS0032,2025-09-19,13:45,Physical Therapy,Primary Care,10,5,5,5,Cancelled,30,68.65
+366,P0583,INS0583,2023-03-11,17:30,Follow-up,Dermatology,3,15,1,1,Cancelled,45,18.45
+367,P0958,INS0958,2023-01-06,14:45,Follow-up,Primary Care,9,7,5,3,Cancelled,30,56.83
+368,P0668,INS0668,2024-08-17,07:30,Specialist Visit,Pediatrics,8,5,1,2,No Show,30,72.33
+369,P0673,INS0673,2024-02-02,14:30,Follow-up,Primary Care,1,1,4,4,Cancelled,30,48.18
+370,P0076,INS0076,2025-10-13,12:00,Specialist Visit,Orthopedics,2,13,5,2,Scheduled,30,52.13
+371,P0854,INS0854,2023-05-26,16:15,Physical Therapy,Orthopedics,4,4,4,1,Completed,45,54.88
+372,P0830,INS0830,2024-08-24,11:30,Follow-up,Pediatrics,9,10,1,3,Cancelled,60,1.93
+373,P0768,INS0768,2025-12-30,13:15,Specialist Visit,Pediatrics,2,15,1,4,Cancelled,45,5.72
+374,P0776,INS0776,2023-05-27,14:00,Lab Review,Dermatology,6,2,4,2,Completed,90,44.48
+375,P0081,INS0081,2024-07-02,12:45,Specialist Visit,Pediatrics,1,10,1,5,No Show,90,0.11
+376,P0355,INS0355,2023-06-11,18:00,Vaccination,Orthopedics,5,5,6,5,Cancelled,45,18.67
+377,P0683,INS0683,2023-08-28,13:00,Lab Review,Orthopedics,8,1,1,3,Scheduled,90,18.44
+378,P0849,INS0849,2023-01-26,18:30,Vaccination,Pediatrics,2,9,3,1,Completed,90,69.23
+379,P0729,INS0729,2023-11-03,09:00,Physical Therapy,Primary Care,4,10,4,4,Completed,15,17.89
+380,P0381,INS0381,2025-03-28,17:30,Lab Review,Neurology,1,11,4,5,Scheduled,30,29.38
+381,P0162,INS0162,2024-11-23,08:45,Vaccination,Neurology,7,12,5,2,Completed,30,25.69
+382,P0428,INS0428,2023-09-28,10:00,Specialist Visit,Dermatology,8,5,3,1,Scheduled,60,36.55
+383,P0518,INS0518,2025-09-16,07:15,Routine Checkup,Neurology,2,10,6,5,Scheduled,90,62.93
+384,P0843,INS0843,2024-07-31,10:00,Routine Checkup,Cardiology,3,13,4,4,Scheduled,15,25.15
+385,P0283,INS0283,2024-11-24,15:00,Vaccination,Cardiology,7,4,2,1,Scheduled,90,49.21
+386,P0034,INS0034,2024-08-27,14:15,Specialist Visit,Primary Care,6,4,5,4,Scheduled,60,35.81
+387,P0280,INS0280,2025-01-14,18:30,Vaccination,Orthopedics,1,14,5,2,Completed,15,33.28
+388,P0066,INS0066,2024-08-15,13:00,Physical Therapy,Dermatology,6,12,2,5,No Show,60,65.73
+389,P0498,INS0498,2025-03-04,13:15,Follow-up,Cardiology,4,6,6,5,Cancelled,15,27.25
+390,P1000,INS1000,2023-01-28,09:45,Routine Checkup,Neurology,9,5,1,2,No Show,60,60.97
+391,P0929,INS0929,2025-07-07,07:15,Follow-up,Dermatology,7,1,3,1,Cancelled,30,3.11
+392,P0406,INS0406,2024-05-03,13:00,Vaccination,Primary Care,3,12,5,1,Cancelled,45,62.81
+393,P0639,INS0639,2023-09-05,07:15,Physical Therapy,Primary Care,10,2,2,1,Completed,15,10.74
+394,P0139,INS0139,2023-02-17,16:30,Vaccination,Cardiology,4,13,4,3,Cancelled,90,27.5
+395,P0879,INS0879,2023-08-18,16:15,Follow-up,Primary Care,1,10,6,5,Cancelled,15,9.98
+396,P0991,INS0991,2025-08-07,12:45,Vaccination,Neurology,6,5,3,5,Completed,15,23.93
+397,P0766,INS0766,2024-07-30,18:30,Vaccination,Cardiology,9,2,1,5,Scheduled,90,9.06
+398,P0562,INS0562,2025-03-08,12:30,Physical Therapy,Cardiology,5,15,3,3,Cancelled,60,11.77
+399,P0172,INS0172,2025-01-29,09:00,Follow-up,Dermatology,8,1,3,4,Cancelled,15,17.61
+400,P0832,INS0832,2025-04-16,08:45,Specialist Visit,Pediatrics,9,7,1,4,Scheduled,45,33.67
+401,P0656,INS0656,2023-11-12,13:45,Routine Checkup,Cardiology,4,6,1,3,No Show,15,5.33
+402,P0978,INS0978,2024-02-12,17:00,Routine Checkup,Orthopedics,4,11,6,1,Cancelled,60,60.67
+403,P0324,INS0324,2025-05-16,07:30,Physical Therapy,Orthopedics,10,1,3,2,Completed,45,22.67
+404,P0215,INS0215,2024-05-17,16:30,Vaccination,Orthopedics,10,5,1,4,No Show,45,16.03
+405,P0697,INS0697,2024-10-17,18:45,Physical Therapy,Primary Care,6,12,4,1,Scheduled,90,47.79
+406,P0545,INS0545,2025-03-25,13:30,Lab Review,Orthopedics,10,4,4,3,Cancelled,15,41.53
+407,P0200,INS0200,2024-10-22,18:45,Vaccination,Neurology,9,8,4,5,Scheduled,45,51.5
+408,P0051,INS0051,2024-01-16,10:45,Follow-up,Neurology,2,9,3,2,Scheduled,15,42.27
+409,P0168,INS0168,2023-02-22,16:30,Follow-up,Orthopedics,4,4,2,2,Cancelled,30,58.96
+410,P0137,INS0137,2024-03-06,16:45,Vaccination,Pediatrics,1,3,5,2,No Show,30,57.23
+411,P0836,INS0836,2025-03-19,14:45,Physical Therapy,Dermatology,3,5,2,4,Cancelled,30,46.65
+412,P0727,INS0727,2023-11-23,10:30,Lab Review,Cardiology,1,3,2,2,Scheduled,90,7.04
+413,P0706,INS0706,2023-01-01,08:45,Physical Therapy,Cardiology,4,13,2,5,No Show,45,10.37
+414,P0985,INS0985,2024-08-31,14:00,Physical Therapy,Dermatology,9,3,5,1,Cancelled,45,61.49
+415,P0883,INS0883,2023-06-22,12:30,Lab Review,Pediatrics,3,15,4,1,Cancelled,45,32.73
+416,P0707,INS0707,2023-05-23,10:15,Routine Checkup,Primary Care,1,12,4,3,Completed,30,50.51
+417,P0189,INS0189,2025-06-04,17:15,Specialist Visit,Orthopedics,8,8,4,2,Completed,15,31.06
+418,P0744,INS0744,2025-11-02,18:00,Follow-up,Orthopedics,5,12,4,1,Cancelled,15,15.55
+419,P0371,INS0371,2023-04-18,10:45,Routine Checkup,Pediatrics,10,6,2,5,No Show,30,47.26
+420,P0087,INS0087,2023-03-18,17:45,Lab Review,Pediatrics,1,3,4,3,Scheduled,60,35.49
+421,P0777,INS0777,2025-01-21,15:15,Follow-up,Orthopedics,7,3,3,5,Scheduled,60,62.28
+422,P0015,INS0015,2023-03-23,10:45,Specialist Visit,Dermatology,6,11,4,3,Cancelled,15,21.2
+423,P0459,INS0459,2024-07-01,12:45,Lab Review,Dermatology,4,2,5,2,Cancelled,90,62.9
+424,P0726,INS0726,2024-07-22,16:00,Vaccination,Dermatology,9,7,1,5,No Show,45,1.07
+425,P0289,INS0289,2024-03-01,09:45,Follow-up,Pediatrics,4,3,2,2,No Show,60,7.61
+426,P0104,INS0104,2023-11-18,18:00,Lab Review,Primary Care,6,10,3,5,No Show,30,18.86
+427,P0005,INS0005,2023-05-30,09:45,Follow-up,Neurology,3,3,2,5,No Show,60,22.51
+428,P0847,INS0847,2023-11-27,12:45,Lab Review,Orthopedics,9,12,4,1,Completed,30,15.38
+429,P0539,INS0539,2025-09-16,07:30,Lab Review,Dermatology,5,2,4,5,Scheduled,60,52.31
+430,P0749,INS0749,2024-02-14,18:30,Physical Therapy,Neurology,6,7,3,4,No Show,60,1.84
+431,P0696,INS0696,2024-10-26,15:45,Lab Review,Orthopedics,10,5,5,4,Completed,90,18.11
+432,P0004,INS0004,2025-06-29,09:15,Follow-up,Primary Care,1,14,5,1,Completed,60,6.28
+433,P0411,INS0411,2023-09-29,07:00,Follow-up,Pediatrics,6,15,3,4,Cancelled,45,24.79
+434,P0682,INS0682,2025-12-06,13:30,Vaccination,Pediatrics,8,6,1,2,No Show,60,32.32
+435,P0006,INS0006,2023-01-15,07:45,Physical Therapy,Orthopedics,6,9,4,5,Completed,45,51.25
+436,P0366,INS0366,2023-05-27,13:45,Vaccination,Pediatrics,6,2,2,2,No Show,45,19.5
+437,P0789,INS0789,2025-11-15,16:45,Vaccination,Primary Care,3,13,2,2,Cancelled,90,74.86
+438,P0018,INS0018,2025-11-15,10:30,Follow-up,Primary Care,2,8,1,2,Cancelled,30,3.42
+439,P0638,INS0638,2024-09-02,11:15,Specialist Visit,Dermatology,7,1,2,1,No Show,15,40.54
+440,P0754,INS0754,2024-04-02,07:30,Lab Review,Primary Care,4,5,6,5,Scheduled,90,57.76
+441,P0654,INS0654,2023-05-16,16:45,Physical Therapy,Orthopedics,10,15,4,2,No Show,45,74.25
+442,P0569,INS0569,2024-07-04,08:15,Vaccination,Orthopedics,10,5,5,1,No Show,45,68.58
+443,P0476,INS0476,2024-02-24,12:45,Lab Review,Orthopedics,5,9,1,5,No Show,60,48.02
+444,P0977,INS0977,2024-04-01,16:30,Lab Review,Primary Care,6,10,6,5,Scheduled,30,49.34
+445,P0443,INS0443,2023-01-03,09:30,Vaccination,Cardiology,1,13,2,1,No Show,90,45.03
+446,P0782,INS0782,2023-10-14,12:30,Physical Therapy,Primary Care,8,4,3,2,Scheduled,30,7.23
+447,P0762,INS0762,2025-06-20,17:45,Follow-up,Pediatrics,9,7,4,3,No Show,15,49.22
+448,P0069,INS0069,2025-11-17,13:30,Lab Review,Dermatology,3,4,1,5,Completed,90,24.0
+449,P0657,INS0657,2025-11-30,13:30,Routine Checkup,Dermatology,7,3,2,2,Completed,60,2.33
+450,P0659,INS0659,2025-01-08,18:45,Lab Review,Dermatology,5,3,4,4,Cancelled,45,69.61
+451,P0215,INS0215,2023-07-22,14:15,Lab Review,Primary Care,7,7,2,5,Completed,15,27.86
+452,P0832,INS0832,2025-12-20,08:45,Physical Therapy,Dermatology,3,5,2,4,No Show,45,42.23
+453,P0425,INS0425,2023-02-17,13:15,Specialist Visit,Cardiology,8,12,2,2,Cancelled,15,33.77
+454,P0515,INS0515,2023-02-25,09:15,Specialist Visit,Orthopedics,10,1,1,4,No Show,45,65.47
+455,P0732,INS0732,2025-07-06,07:30,Follow-up,Orthopedics,10,6,6,3,Scheduled,60,31.55
+456,P0322,INS0322,2024-10-04,10:00,Physical Therapy,Dermatology,10,11,1,4,Completed,60,38.56
+457,P0362,INS0362,2023-05-13,12:45,Physical Therapy,Primary Care,9,10,3,3,Cancelled,30,30.37
+458,P0564,INS0564,2024-03-06,15:30,Physical Therapy,Dermatology,8,7,2,5,Scheduled,30,71.96
+459,P0702,INS0702,2025-09-07,13:00,Specialist Visit,Cardiology,10,7,6,1,Completed,15,70.17
+460,P0806,INS0806,2023-02-27,17:30,Lab Review,Primary Care,9,15,5,1,Completed,90,48.53
+461,P0553,INS0553,2025-12-07,17:45,Lab Review,Primary Care,9,13,2,1,Cancelled,15,68.66
+462,P0398,INS0398,2023-03-17,08:00,Follow-up,Dermatology,3,4,4,2,Completed,60,41.5
+463,P0915,INS0915,2024-04-18,10:30,Lab Review,Dermatology,7,11,3,5,Cancelled,15,18.2
+464,P0324,INS0324,2023-04-01,13:45,Vaccination,Orthopedics,9,10,4,5,Completed,30,25.37
+465,P0708,INS0708,2025-07-02,07:45,Follow-up,Cardiology,2,13,2,2,Scheduled,45,24.7
+466,P0648,INS0648,2023-03-29,17:30,Follow-up,Neurology,1,6,2,1,Cancelled,90,45.26
+467,P0899,INS0899,2024-03-31,15:30,Lab Review,Pediatrics,5,1,3,3,Completed,15,72.89
+468,P0319,INS0319,2023-05-11,11:45,Routine Checkup,Neurology,2,13,2,2,No Show,15,14.88
+469,P0549,INS0549,2025-06-28,08:30,Lab Review,Orthopedics,9,10,1,1,Cancelled,60,46.34
+470,P0551,INS0551,2023-04-20,09:15,Lab Review,Pediatrics,5,6,4,5,No Show,45,30.9
+471,P0485,INS0485,2024-08-23,07:15,Follow-up,Neurology,7,5,1,1,Cancelled,30,70.32
+472,P0628,INS0628,2024-10-15,14:15,Follow-up,Dermatology,4,14,1,3,Cancelled,45,33.98
+473,P0940,INS0940,2023-11-25,16:15,Lab Review,Orthopedics,4,2,5,4,Completed,15,10.25
+474,P0850,INS0850,2023-07-01,12:30,Lab Review,Neurology,5,11,2,2,Completed,30,22.51
+475,P0385,INS0385,2025-02-02,08:30,Lab Review,Neurology,5,9,2,5,Cancelled,60,1.8
+476,P0478,INS0478,2024-02-29,11:30,Follow-up,Orthopedics,5,7,2,1,No Show,90,26.76
+477,P0291,INS0291,2023-06-18,17:45,Vaccination,Neurology,10,2,4,1,Cancelled,15,25.25
+478,P0972,INS0972,2023-11-27,09:00,Physical Therapy,Neurology,2,7,5,5,Scheduled,45,66.84
+479,P0102,INS0102,2024-04-11,11:30,Lab Review,Orthopedics,7,12,1,5,No Show,90,15.25
+480,P0499,INS0499,2025-07-10,11:00,Lab Review,Cardiology,10,13,6,2,Cancelled,45,49.83
+481,P0248,INS0248,2024-02-17,07:15,Follow-up,Neurology,6,15,6,1,Cancelled,30,8.74
+482,P0913,INS0913,2024-01-22,13:45,Follow-up,Orthopedics,2,10,6,4,Cancelled,60,32.66
+483,P0080,INS0080,2023-01-04,09:30,Lab Review,Orthopedics,4,5,2,1,Completed,30,10.02
+484,P0716,INS0716,2024-03-26,11:00,Routine Checkup,Cardiology,8,7,5,2,Cancelled,60,26.86
+485,P0759,INS0759,2023-02-03,08:45,Follow-up,Dermatology,2,6,2,3,No Show,60,9.02
+486,P0301,INS0301,2023-02-25,16:15,Specialist Visit,Cardiology,6,2,4,3,Cancelled,45,32.57
+487,P0315,INS0315,2023-10-14,13:00,Routine Checkup,Dermatology,7,4,4,2,Cancelled,30,4.99
+488,P0599,INS0599,2024-12-31,18:45,Physical Therapy,Neurology,6,6,5,2,Completed,60,51.4
+489,P0385,INS0385,2024-06-22,08:30,Physical Therapy,Primary Care,1,4,5,3,Scheduled,30,55.72
+490,P0343,INS0343,2024-12-04,08:15,Vaccination,Pediatrics,5,15,5,4,Cancelled,30,13.54
+491,P0933,INS0933,2024-04-13,16:00,Vaccination,Orthopedics,4,4,1,3,No Show,45,28.35
+492,P0757,INS0757,2023-06-21,12:45,Vaccination,Dermatology,4,3,3,1,Scheduled,45,52.25
+493,P0603,INS0603,2025-07-26,15:45,Physical Therapy,Pediatrics,4,2,2,1,No Show,15,43.74
+494,P0293,INS0293,2024-05-14,14:45,Lab Review,Orthopedics,7,2,5,2,Scheduled,90,60.33
+495,P0515,INS0515,2023-04-16,07:00,Lab Review,Neurology,9,8,2,1,No Show,30,43.67
+496,P0333,INS0333,2023-07-08,08:30,Specialist Visit,Orthopedics,8,9,4,2,Scheduled,15,36.44
+497,P0562,INS0562,2023-06-08,15:45,Routine Checkup,Primary Care,10,11,4,5,No Show,60,22.59
+498,P0339,INS0339,2025-07-19,07:45,Lab Review,Dermatology,1,3,4,5,Completed,30,69.34
+499,P0739,INS0739,2023-05-28,12:30,Specialist Visit,Neurology,4,1,4,1,Scheduled,30,14.64
+500,P0190,INS0190,2025-10-25,13:30,Lab Review,Neurology,6,15,6,1,No Show,30,12.61
+501,P0759,INS0759,2023-07-15,08:30,Specialist Visit,Primary Care,7,7,4,1,Scheduled,45,5.65
+502,P0328,INS0328,2023-10-18,07:00,Follow-up,Orthopedics,4,4,6,5,Completed,30,10.18
+503,P0140,INS0140,2024-07-23,07:00,Vaccination,Cardiology,10,3,2,2,Scheduled,45,28.33
+504,P0671,INS0671,2023-02-26,08:00,Routine Checkup,Primary Care,4,5,5,3,Completed,30,43.19
+505,P0198,INS0198,2024-04-11,17:15,Vaccination,Cardiology,9,7,1,2,Completed,30,54.97
+506,P0261,INS0261,2024-11-18,13:30,Vaccination,Cardiology,4,5,2,5,Cancelled,45,57.94
+507,P0306,INS0306,2025-06-25,13:00,Specialist Visit,Pediatrics,10,9,4,4,Completed,45,13.04
+508,P0056,INS0056,2024-12-31,10:45,Follow-up,Neurology,8,11,2,3,No Show,30,46.64
+509,P0851,INS0851,2024-04-20,12:45,Routine Checkup,Pediatrics,3,7,4,3,No Show,90,63.53
+510,P0274,INS0274,2025-09-26,13:15,Vaccination,Cardiology,9,1,5,4,Cancelled,45,7.89
+511,P0485,INS0485,2025-01-26,10:15,Follow-up,Dermatology,6,3,3,4,No Show,60,32.57
+512,P0326,INS0326,2024-04-22,12:15,Physical Therapy,Dermatology,7,3,6,5,No Show,30,11.56
+513,P0208,INS0208,2025-03-06,14:15,Vaccination,Primary Care,6,8,1,2,Cancelled,60,71.32
+514,P0763,INS0763,2024-04-04,12:30,Specialist Visit,Neurology,5,7,5,3,Cancelled,30,50.16
+515,P0027,INS0027,2025-04-25,08:45,Lab Review,Dermatology,3,5,5,4,Completed,90,45.63
+516,P0911,INS0911,2023-06-08,13:00,Vaccination,Cardiology,9,2,1,4,Completed,60,6.63
+517,P0251,INS0251,2023-02-17,14:15,Follow-up,Cardiology,7,1,4,2,Scheduled,15,20.54
+518,P0629,INS0629,2025-05-17,14:00,Physical Therapy,Cardiology,7,12,3,5,Completed,15,9.89
+519,P0126,INS0126,2024-08-07,13:15,Physical Therapy,Pediatrics,8,7,2,3,No Show,30,56.15
+520,P0852,INS0852,2023-12-03,13:30,Vaccination,Orthopedics,4,15,2,5,Scheduled,60,10.4
+521,P0954,INS0954,2024-09-07,07:15,Follow-up,Dermatology,5,9,6,1,Scheduled,30,48.15
+522,P0720,INS0720,2025-02-23,18:30,Physical Therapy,Orthopedics,2,10,4,4,Scheduled,60,51.14
+523,P0564,INS0564,2024-04-04,10:30,Specialist Visit,Dermatology,2,1,1,4,Scheduled,30,26.24
+524,P0792,INS0792,2023-02-26,08:45,Lab Review,Cardiology,10,10,3,5,Scheduled,15,14.6
+525,P0238,INS0238,2024-07-11,11:15,Follow-up,Neurology,7,14,4,2,No Show,90,59.59
+526,P0289,INS0289,2023-04-04,16:30,Routine Checkup,Neurology,1,2,4,4,Completed,15,5.54
+527,P0258,INS0258,2023-07-06,08:45,Routine Checkup,Pediatrics,10,11,6,5,Scheduled,15,3.57
+528,P0320,INS0320,2023-11-27,07:15,Physical Therapy,Dermatology,7,14,4,1,Cancelled,90,74.94
+529,P0766,INS0766,2023-05-29,16:00,Specialist Visit,Pediatrics,3,2,2,3,No Show,45,41.51
+530,P0910,INS0910,2023-11-16,07:15,Vaccination,Cardiology,2,7,1,4,Scheduled,60,62.8
+531,P0951,INS0951,2023-07-24,10:45,Routine Checkup,Primary Care,6,13,4,1,Scheduled,60,8.7
+532,P0898,INS0898,2023-10-04,18:00,Physical Therapy,Neurology,5,15,1,2,No Show,60,50.18
+533,P0005,INS0005,2023-11-27,15:00,Vaccination,Primary Care,2,3,5,4,No Show,45,10.25
+534,P0497,INS0497,2023-06-03,16:15,Follow-up,Orthopedics,9,6,4,4,No Show,60,14.06
+535,P0074,INS0074,2024-05-04,15:00,Routine Checkup,Neurology,8,5,5,1,Cancelled,15,58.68
+536,P0294,INS0294,2023-12-13,10:15,Routine Checkup,Pediatrics,5,15,1,1,Completed,15,69.01
+537,P0224,INS0224,2024-11-09,07:45,Physical Therapy,Neurology,7,11,2,4,Scheduled,60,41.09
+538,P0834,INS0834,2024-12-06,12:15,Vaccination,Cardiology,8,12,3,1,Scheduled,30,47.47
+539,P0290,INS0290,2025-09-23,18:00,Lab Review,Orthopedics,10,9,5,5,No Show,90,39.43
+540,P0932,INS0932,2025-01-05,13:45,Physical Therapy,Pediatrics,9,10,5,2,Scheduled,15,27.69
+541,P0606,INS0606,2024-11-28,13:45,Vaccination,Neurology,7,4,3,3,No Show,30,63.88
+542,P0189,INS0189,2025-07-07,17:00,Follow-up,Cardiology,7,7,2,3,Cancelled,45,1.94
+543,P0392,INS0392,2023-01-17,14:00,Lab Review,Primary Care,2,5,6,3,Scheduled,30,0.38
+544,P0839,INS0839,2025-02-13,15:45,Specialist Visit,Pediatrics,1,13,6,5,Cancelled,15,65.77
+545,P0004,INS0004,2025-04-23,13:00,Lab Review,Pediatrics,2,8,2,5,Completed,15,35.38
+546,P0173,INS0173,2024-01-29,15:00,Routine Checkup,Pediatrics,3,3,2,2,Completed,30,13.12
+547,P0159,INS0159,2024-08-04,07:30,Follow-up,Pediatrics,3,9,2,3,No Show,15,0.1
+548,P0095,INS0095,2023-03-21,18:30,Follow-up,Dermatology,2,4,3,1,Scheduled,30,26.03
+549,P0031,INS0031,2024-10-05,10:30,Follow-up,Cardiology,3,13,6,5,Completed,15,59.37
+550,P0448,INS0448,2024-08-15,08:30,Follow-up,Dermatology,1,10,4,5,Completed,15,9.57
+551,P0554,INS0554,2023-02-05,08:00,Vaccination,Primary Care,10,5,6,3,Completed,45,5.79
+552,P0341,INS0341,2023-09-16,15:00,Lab Review,Pediatrics,5,8,5,4,Cancelled,45,54.96
+553,P0644,INS0644,2023-09-21,15:00,Specialist Visit,Primary Care,9,11,5,5,Completed,15,28.91
+554,P0775,INS0775,2024-12-06,14:00,Lab Review,Cardiology,8,9,5,1,Completed,15,16.64
+555,P0677,INS0677,2025-06-29,11:15,Lab Review,Orthopedics,10,10,1,3,No Show,90,24.24
+556,P0353,INS0353,2025-10-06,12:30,Lab Review,Primary Care,9,13,3,2,Scheduled,60,45.21
+557,P0441,INS0441,2023-04-11,18:30,Vaccination,Cardiology,9,10,5,4,Scheduled,60,5.0
+558,P0050,INS0050,2025-03-06,12:45,Follow-up,Cardiology,4,8,3,3,Cancelled,15,6.22
+559,P0326,INS0326,2023-10-22,14:45,Routine Checkup,Cardiology,7,11,5,1,No Show,90,67.42
+560,P0060,INS0060,2023-10-14,12:15,Lab Review,Primary Care,9,5,2,4,Cancelled,90,46.03
+561,P0656,INS0656,2025-03-25,11:30,Vaccination,Orthopedics,8,14,2,3,Scheduled,90,21.15
+562,P0189,INS0189,2024-05-07,18:15,Vaccination,Cardiology,4,5,5,1,Scheduled,45,6.0
+563,P0727,INS0727,2023-09-16,11:00,Lab Review,Pediatrics,6,4,4,5,Scheduled,45,40.09
+564,P0323,INS0323,2025-07-28,11:00,Follow-up,Cardiology,8,10,4,1,Completed,45,12.34
+565,P0464,INS0464,2023-05-06,10:15,Specialist Visit,Neurology,3,10,3,5,No Show,45,13.6
+566,P0228,INS0228,2023-06-19,12:15,Physical Therapy,Orthopedics,4,1,3,1,Completed,90,32.63
+567,P0189,INS0189,2023-07-05,14:15,Routine Checkup,Orthopedics,5,3,5,2,Completed,15,22.65
+568,P0418,INS0418,2025-08-08,15:15,Routine Checkup,Pediatrics,4,10,2,4,Cancelled,90,15.74
+569,P0880,INS0880,2023-01-11,13:15,Specialist Visit,Pediatrics,1,4,1,2,Completed,90,3.39
+570,P0545,INS0545,2025-01-03,07:15,Specialist Visit,Primary Care,7,2,6,5,Scheduled,15,43.23
+571,P0659,INS0659,2024-05-13,10:30,Physical Therapy,Cardiology,8,10,4,1,Scheduled,15,4.36
+572,P0023,INS0023,2024-01-12,18:30,Follow-up,Primary Care,7,3,2,3,Cancelled,45,52.5
+573,P0066,INS0066,2025-11-18,18:30,Vaccination,Dermatology,5,1,6,4,Completed,30,0.04
+574,P0813,INS0813,2024-12-05,18:15,Specialist Visit,Neurology,4,2,4,4,Cancelled,90,57.63
+575,P0292,INS0292,2024-11-09,13:30,Follow-up,Neurology,5,14,2,4,Scheduled,15,46.12
+576,P0968,INS0968,2024-12-23,10:00,Routine Checkup,Neurology,8,8,4,4,Cancelled,45,4.38
+577,P0182,INS0182,2025-08-22,17:45,Routine Checkup,Cardiology,1,13,5,2,Scheduled,45,35.76
+578,P0057,INS0057,2025-04-13,17:00,Lab Review,Dermatology,1,3,2,2,Scheduled,15,29.31
+579,P0642,INS0642,2025-06-23,07:45,Lab Review,Orthopedics,7,4,3,2,Completed,30,14.88
+580,P0498,INS0498,2023-09-10,15:30,Physical Therapy,Cardiology,2,14,2,4,No Show,90,27.57
+581,P0226,INS0226,2025-10-16,08:00,Vaccination,Cardiology,10,5,2,1,Scheduled,15,70.42
+582,P0251,INS0251,2025-07-17,12:15,Physical Therapy,Dermatology,10,15,6,2,Completed,15,15.54
+583,P0266,INS0266,2025-06-14,12:45,Follow-up,Dermatology,4,3,4,5,No Show,15,36.82
+584,P0568,INS0568,2024-02-18,17:45,Follow-up,Pediatrics,10,2,3,2,Completed,15,7.07
+585,P0798,INS0798,2024-07-16,17:00,Follow-up,Pediatrics,3,12,4,4,No Show,30,32.33
+586,P0887,INS0887,2024-03-27,12:00,Specialist Visit,Orthopedics,3,5,3,3,Completed,30,36.68
+587,P0855,INS0855,2025-01-18,17:45,Vaccination,Orthopedics,10,8,4,3,Cancelled,90,22.01
+588,P0437,INS0437,2023-11-24,09:30,Physical Therapy,Pediatrics,6,14,1,1,No Show,60,46.91
+589,P0323,INS0323,2023-01-12,13:15,Physical Therapy,Orthopedics,6,7,5,3,Scheduled,30,61.38
+590,P0056,INS0056,2025-05-13,09:45,Follow-up,Neurology,8,3,5,2,No Show,15,46.04
+591,P0599,INS0599,2024-03-17,11:30,Specialist Visit,Primary Care,3,10,1,3,Cancelled,45,67.58
+592,P0191,INS0191,2023-10-29,10:30,Follow-up,Orthopedics,9,14,6,1,No Show,45,72.93
+593,P0741,INS0741,2025-08-07,09:30,Routine Checkup,Dermatology,5,12,6,1,Cancelled,15,15.27
+594,P0666,INS0666,2025-12-20,09:00,Vaccination,Orthopedics,9,11,2,2,Completed,60,48.38
+595,P0902,INS0902,2023-11-16,18:00,Physical Therapy,Neurology,5,6,1,4,Cancelled,60,57.45
+596,P0456,INS0456,2023-01-25,13:15,Follow-up,Neurology,4,11,2,5,Cancelled,30,0.33
+597,P0069,INS0069,2023-10-11,09:00,Routine Checkup,Neurology,9,5,5,3,Completed,60,61.28
+598,P0792,INS0792,2024-02-21,10:15,Follow-up,Orthopedics,10,7,1,5,Completed,90,45.39
+599,P0511,INS0511,2023-06-25,18:15,Follow-up,Primary Care,6,11,6,3,No Show,60,65.75
+600,P0614,INS0614,2023-09-30,07:30,Follow-up,Pediatrics,10,12,1,1,Completed,30,19.62
+601,P0379,INS0379,2023-07-11,16:15,Vaccination,Primary Care,1,2,1,3,No Show,60,8.23
+602,P0354,INS0354,2025-12-22,18:00,Physical Therapy,Primary Care,4,9,6,5,Scheduled,45,19.15
+603,P0070,INS0070,2023-05-06,11:00,Vaccination,Cardiology,2,6,4,4,No Show,15,51.53
+604,P0854,INS0854,2024-11-07,10:00,Vaccination,Dermatology,4,8,3,4,No Show,45,37.93
+605,P0202,INS0202,2023-03-28,16:00,Routine Checkup,Orthopedics,9,15,3,4,No Show,60,8.25
+606,P0861,INS0861,2025-07-12,15:30,Routine Checkup,Primary Care,10,1,2,4,Scheduled,60,67.31
+607,P0540,INS0540,2024-02-23,14:00,Follow-up,Primary Care,2,6,5,4,Cancelled,90,73.33
+608,P0116,INS0116,2023-06-24,16:45,Follow-up,Orthopedics,6,10,6,5,Completed,30,11.99
+609,P0068,INS0068,2025-09-02,07:30,Routine Checkup,Pediatrics,9,4,3,2,No Show,45,48.27
+610,P0069,INS0069,2024-12-13,13:30,Follow-up,Neurology,3,9,3,2,No Show,30,74.05
+611,P0593,INS0593,2025-11-08,09:30,Specialist Visit,Orthopedics,7,11,2,1,Cancelled,60,25.14
+612,P0045,INS0045,2023-05-17,17:30,Physical Therapy,Pediatrics,7,7,5,4,Completed,15,61.11
+613,P0796,INS0796,2024-02-19,07:15,Physical Therapy,Pediatrics,4,3,4,2,Cancelled,60,32.25
+614,P0574,INS0574,2024-03-30,11:30,Routine Checkup,Neurology,6,13,6,1,Completed,45,9.43
+615,P0531,INS0531,2025-01-29,11:45,Routine Checkup,Cardiology,1,13,5,4,Completed,15,40.14
+616,P0578,INS0578,2025-08-24,09:00,Lab Review,Orthopedics,4,9,6,2,Cancelled,60,35.19
+617,P0942,INS0942,2023-08-26,08:30,Specialist Visit,Pediatrics,3,12,6,4,Cancelled,30,0.08
+618,P0618,INS0618,2023-05-06,07:45,Routine Checkup,Cardiology,2,1,2,3,Completed,30,22.14
+619,P0298,INS0298,2025-09-28,10:00,Vaccination,Neurology,8,14,6,4,Cancelled,15,56.8
+620,P0855,INS0855,2025-05-24,08:45,Routine Checkup,Orthopedics,6,12,5,4,No Show,60,30.2
+621,P0467,INS0467,2025-04-12,11:00,Physical Therapy,Dermatology,7,9,2,2,No Show,45,1.21
+622,P0630,INS0630,2025-01-20,09:15,Vaccination,Cardiology,7,11,6,3,Completed,60,46.81
+623,P0981,INS0981,2024-01-09,09:00,Physical Therapy,Primary Care,5,4,5,1,Cancelled,15,27.14
+624,P0292,INS0292,2025-09-06,17:15,Follow-up,Primary Care,2,6,4,5,Scheduled,15,68.09
+625,P0337,INS0337,2023-03-18,18:00,Routine Checkup,Primary Care,7,12,2,4,Scheduled,15,37.79
+626,P0138,INS0138,2025-04-01,12:15,Lab Review,Pediatrics,8,15,3,5,Cancelled,90,68.89
+627,P0209,INS0209,2024-03-27,12:30,Physical Therapy,Dermatology,4,6,4,1,Completed,15,21.28
+628,P0413,INS0413,2025-08-24,16:00,Vaccination,Orthopedics,4,15,6,5,Cancelled,60,63.98
+629,P0696,INS0696,2024-05-06,09:00,Specialist Visit,Primary Care,8,12,2,4,Cancelled,45,10.97
+630,P0531,INS0531,2023-10-18,11:45,Physical Therapy,Pediatrics,5,14,5,2,Cancelled,30,21.76
+631,P0041,INS0041,2023-03-12,18:15,Routine Checkup,Dermatology,7,11,1,1,No Show,60,59.24
+632,P0328,INS0328,2023-06-26,16:00,Physical Therapy,Pediatrics,5,4,2,4,Scheduled,60,71.58
+633,P0208,INS0208,2023-04-27,17:15,Specialist Visit,Pediatrics,7,14,6,2,Cancelled,90,53.46
+634,P0853,INS0853,2024-02-16,07:00,Routine Checkup,Primary Care,1,10,1,5,Completed,15,41.48
+635,P0534,INS0534,2023-08-22,18:00,Vaccination,Dermatology,1,3,5,2,No Show,45,4.84
+636,P0557,INS0557,2024-01-04,16:00,Physical Therapy,Neurology,4,1,3,2,Cancelled,60,31.85
+637,P0249,INS0249,2025-05-05,13:15,Physical Therapy,Neurology,1,9,1,2,Completed,60,38.99
+638,P0358,INS0358,2024-09-12,14:30,Follow-up,Primary Care,6,15,6,2,Scheduled,15,2.73
+639,P0358,INS0358,2024-03-10,17:15,Routine Checkup,Dermatology,7,8,2,5,Cancelled,90,37.79
+640,P0143,INS0143,2023-07-13,15:00,Lab Review,Pediatrics,3,11,4,5,Completed,60,74.9
+641,P0752,INS0752,2024-12-30,17:00,Lab Review,Primary Care,7,13,4,4,Cancelled,15,38.18
+642,P0491,INS0491,2025-03-26,09:15,Follow-up,Cardiology,7,9,5,3,Scheduled,15,54.65
+643,P0407,INS0407,2023-11-27,14:45,Specialist Visit,Dermatology,3,3,4,4,Cancelled,60,38.6
+644,P0708,INS0708,2025-11-20,07:15,Follow-up,Neurology,7,2,4,3,Completed,30,41.27
+645,P0657,INS0657,2023-01-02,14:30,Physical Therapy,Dermatology,4,13,3,5,Scheduled,30,24.26
+646,P0638,INS0638,2025-09-03,14:45,Specialist Visit,Orthopedics,6,10,4,4,No Show,15,41.18
+647,P0193,INS0193,2025-01-26,18:00,Vaccination,Primary Care,2,15,6,3,Scheduled,60,8.2
+648,P0970,INS0970,2025-03-04,12:45,Physical Therapy,Dermatology,4,10,1,2,No Show,60,26.32
+649,P0096,INS0096,2025-12-30,15:45,Routine Checkup,Neurology,2,14,3,5,Cancelled,15,4.21
+650,P0668,INS0668,2025-01-09,07:00,Lab Review,Dermatology,3,5,3,5,Completed,90,71.09
+651,P0575,INS0575,2025-10-03,12:45,Routine Checkup,Neurology,4,11,1,2,Completed,15,9.26
+652,P0749,INS0749,2023-11-04,12:00,Routine Checkup,Neurology,9,7,6,1,Cancelled,45,12.82
+653,P0773,INS0773,2023-02-17,13:30,Specialist Visit,Cardiology,3,4,2,4,Completed,15,47.55
+654,P0017,INS0017,2025-02-26,09:00,Routine Checkup,Orthopedics,4,1,2,3,Completed,60,48.84
+655,P0434,INS0434,2023-10-12,11:45,Vaccination,Cardiology,8,13,6,3,Scheduled,45,37.11
+656,P0801,INS0801,2023-07-08,17:30,Vaccination,Orthopedics,10,6,4,4,No Show,15,54.03
+657,P0556,INS0556,2025-10-06,10:30,Lab Review,Pediatrics,5,6,2,3,No Show,15,21.05
+658,P0672,INS0672,2025-05-28,15:45,Vaccination,Dermatology,4,11,6,3,Completed,45,42.12
+659,P0877,INS0877,2024-04-13,17:30,Lab Review,Dermatology,7,11,2,4,Cancelled,30,32.56
+660,P0402,INS0402,2024-09-05,15:30,Specialist Visit,Cardiology,1,14,6,4,Cancelled,45,39.34
+661,P0005,INS0005,2025-11-06,16:30,Specialist Visit,Cardiology,7,13,5,5,Completed,45,22.56
+662,P0893,INS0893,2025-05-31,16:30,Physical Therapy,Primary Care,6,1,6,3,No Show,15,27.09
+663,P0739,INS0739,2023-03-07,16:15,Physical Therapy,Pediatrics,7,8,2,1,Scheduled,60,14.78
+664,P0177,INS0177,2024-02-06,16:00,Lab Review,Orthopedics,8,4,6,4,Completed,90,23.6
+665,P0651,INS0651,2024-12-08,17:00,Specialist Visit,Dermatology,1,2,4,2,No Show,90,74.46
+666,P0113,INS0113,2024-12-26,07:15,Lab Review,Neurology,1,5,3,1,Completed,90,7.07
+667,P0215,INS0215,2024-12-04,10:00,Specialist Visit,Orthopedics,10,5,6,2,Completed,60,46.53
+668,P0853,INS0853,2024-11-08,10:00,Lab Review,Neurology,2,2,2,2,No Show,90,2.19
+669,P0890,INS0890,2023-12-08,13:30,Specialist Visit,Orthopedics,5,3,5,4,Cancelled,30,60.46
+670,P0353,INS0353,2023-08-16,18:00,Physical Therapy,Pediatrics,8,4,5,2,No Show,45,21.94
+671,P0978,INS0978,2023-06-14,11:45,Routine Checkup,Dermatology,2,10,2,3,Scheduled,15,35.75
+672,P0924,INS0924,2024-09-15,12:30,Vaccination,Neurology,4,12,4,1,Cancelled,30,35.54
+673,P0557,INS0557,2023-08-09,13:45,Specialist Visit,Cardiology,8,5,4,1,Completed,15,50.09
+674,P0851,INS0851,2025-09-01,12:45,Lab Review,Neurology,3,13,4,3,Scheduled,30,56.49
+675,P0030,INS0030,2025-11-18,11:00,Physical Therapy,Neurology,8,7,2,1,Scheduled,60,42.83
+676,P0086,INS0086,2025-06-02,10:00,Specialist Visit,Dermatology,10,6,1,4,Cancelled,15,23.31
+677,P0034,INS0034,2024-11-06,18:15,Specialist Visit,Neurology,7,8,2,1,Completed,30,21.03
+678,P0235,INS0235,2025-12-23,15:00,Vaccination,Dermatology,6,14,1,3,Completed,15,10.89
+679,P0623,INS0623,2024-05-11,13:30,Vaccination,Primary Care,3,9,2,2,Scheduled,30,19.15
+680,P0483,INS0483,2025-01-10,12:45,Follow-up,Orthopedics,3,10,5,1,Scheduled,45,21.96
+681,P0025,INS0025,2024-08-07,17:30,Specialist Visit,Primary Care,9,14,6,2,No Show,30,32.69
+682,P0630,INS0630,2025-02-01,10:00,Routine Checkup,Neurology,3,11,5,4,Cancelled,15,50.87
+683,P0110,INS0110,2024-10-18,07:45,Specialist Visit,Neurology,10,2,6,4,Completed,60,67.74
+684,P0983,INS0983,2024-11-26,08:45,Specialist Visit,Cardiology,9,2,4,2,Scheduled,15,54.84
+685,P0501,INS0501,2024-04-13,16:15,Specialist Visit,Primary Care,10,9,2,4,Scheduled,45,33.2
+686,P0696,INS0696,2025-08-01,13:45,Routine Checkup,Primary Care,6,3,5,5,Cancelled,60,0.07
+687,P0659,INS0659,2024-08-21,12:00,Vaccination,Cardiology,1,5,3,3,Scheduled,15,60.66
+688,P0182,INS0182,2023-01-13,09:45,Lab Review,Dermatology,4,9,4,5,Scheduled,30,55.86
+689,P0318,INS0318,2024-12-10,07:15,Physical Therapy,Pediatrics,9,7,4,4,Scheduled,30,48.64
+690,P0049,INS0049,2024-07-11,07:15,Vaccination,Orthopedics,8,11,3,3,Scheduled,90,53.32
+691,P0150,INS0150,2024-05-06,13:00,Routine Checkup,Primary Care,4,14,5,2,Cancelled,30,5.38
+692,P0893,INS0893,2024-10-04,08:15,Specialist Visit,Pediatrics,7,1,1,5,No Show,30,11.17
+693,P0101,INS0101,2024-04-26,15:15,Vaccination,Cardiology,3,1,5,2,Scheduled,60,39.22
+694,P0742,INS0742,2025-04-21,10:45,Routine Checkup,Cardiology,9,10,6,1,Cancelled,30,55.37
+695,P0615,INS0615,2023-01-26,14:30,Lab Review,Orthopedics,7,8,2,1,Scheduled,15,26.52
+696,P0083,INS0083,2024-06-10,18:00,Routine Checkup,Orthopedics,1,8,1,4,Completed,45,42.05
+697,P0893,INS0893,2023-02-26,17:30,Routine Checkup,Cardiology,4,8,1,5,No Show,15,57.36
+698,P0904,INS0904,2023-06-14,16:30,Lab Review,Pediatrics,6,5,3,4,Cancelled,30,46.26
+699,P0353,INS0353,2024-11-24,13:00,Physical Therapy,Cardiology,8,7,4,1,Completed,60,33.46
+700,P0701,INS0701,2023-08-27,18:45,Specialist Visit,Orthopedics,4,10,3,4,Scheduled,30,55.66
+701,P0784,INS0784,2025-02-20,14:15,Routine Checkup,Pediatrics,6,8,2,4,Scheduled,30,40.84
+702,P0873,INS0873,2025-12-10,14:30,Routine Checkup,Cardiology,3,4,6,3,Cancelled,15,22.64
+703,P0807,INS0807,2025-03-11,13:15,Follow-up,Orthopedics,4,12,2,1,No Show,15,5.37
+704,P0469,INS0469,2025-05-02,08:30,Specialist Visit,Neurology,2,6,2,3,Completed,15,45.07
+705,P0545,INS0545,2025-05-13,10:45,Vaccination,Orthopedics,1,14,3,4,No Show,60,40.4
+706,P0579,INS0579,2025-03-04,16:45,Routine Checkup,Cardiology,7,9,5,2,Scheduled,15,20.87
+707,P0226,INS0226,2025-09-23,17:15,Follow-up,Neurology,4,12,1,3,Completed,30,58.46
+708,P0724,INS0724,2023-08-21,17:15,Follow-up,Primary Care,7,6,5,2,No Show,15,3.28
+709,P0271,INS0271,2023-04-13,13:15,Physical Therapy,Primary Care,2,9,4,2,Completed,90,11.77
+710,P0492,INS0492,2023-09-12,15:15,Routine Checkup,Primary Care,9,2,4,5,Cancelled,15,63.6
+711,P0492,INS0492,2024-11-16,17:45,Physical Therapy,Dermatology,9,11,3,5,Cancelled,45,43.62
+712,P0460,INS0460,2023-04-27,12:15,Specialist Visit,Primary Care,8,2,1,3,Cancelled,45,74.09
+713,P0365,INS0365,2025-11-24,18:00,Physical Therapy,Dermatology,9,11,1,1,Cancelled,15,36.94
+714,P0648,INS0648,2024-10-03,13:15,Routine Checkup,Orthopedics,4,14,1,2,Cancelled,45,62.46
+715,P0460,INS0460,2023-12-31,18:45,Routine Checkup,Orthopedics,10,5,5,4,Completed,60,68.54
+716,P0520,INS0520,2023-05-26,08:15,Physical Therapy,Neurology,10,11,5,5,Scheduled,60,39.78
+717,P0971,INS0971,2023-12-08,18:00,Routine Checkup,Cardiology,1,8,1,4,Cancelled,45,14.14
+718,P0700,INS0700,2023-12-18,08:45,Specialist Visit,Neurology,4,7,1,2,Scheduled,60,46.04
+719,P0540,INS0540,2024-11-05,11:00,Routine Checkup,Pediatrics,10,14,1,2,Cancelled,30,45.1
+720,P0768,INS0768,2024-08-28,12:30,Physical Therapy,Cardiology,6,12,4,2,Scheduled,30,36.14
+721,P0286,INS0286,2024-03-22,16:15,Specialist Visit,Pediatrics,6,2,4,3,Scheduled,90,52.54
+722,P0189,INS0189,2024-10-22,15:00,Lab Review,Neurology,5,14,4,4,Completed,15,61.42
+723,P0187,INS0187,2024-01-20,13:00,Routine Checkup,Neurology,9,7,2,5,No Show,45,19.37
+724,P0845,INS0845,2024-03-01,18:30,Vaccination,Cardiology,2,6,4,2,Scheduled,90,18.18
+725,P0917,INS0917,2025-08-21,16:45,Physical Therapy,Neurology,6,13,5,1,Cancelled,45,27.18
+726,P0808,INS0808,2025-08-09,09:30,Lab Review,Primary Care,9,12,5,5,Completed,15,34.57
+727,P0652,INS0652,2024-01-21,12:00,Follow-up,Orthopedics,9,2,1,2,Completed,90,35.29
+728,P0957,INS0957,2025-05-28,14:00,Follow-up,Neurology,3,2,4,2,No Show,15,52.98
+729,P0185,INS0185,2024-09-17,09:15,Lab Review,Cardiology,5,2,6,5,Completed,15,30.88
+730,P0935,INS0935,2024-05-18,09:15,Follow-up,Pediatrics,5,15,1,1,Scheduled,45,21.76
+731,P0173,INS0173,2024-08-30,15:30,Specialist Visit,Neurology,1,3,6,3,Completed,45,0.55
+732,P0616,INS0616,2024-09-22,14:45,Vaccination,Neurology,2,2,6,5,Cancelled,15,73.49
+733,P0427,INS0427,2024-07-15,07:30,Routine Checkup,Pediatrics,8,6,2,5,Scheduled,30,35.06
+734,P0328,INS0328,2024-09-29,17:15,Vaccination,Pediatrics,2,11,6,5,Scheduled,90,68.2
+735,P0184,INS0184,2025-02-28,08:00,Routine Checkup,Neurology,4,6,4,3,No Show,30,56.2
+736,P0608,INS0608,2023-12-26,07:15,Specialist Visit,Orthopedics,7,12,4,4,Cancelled,90,13.0
+737,P0172,INS0172,2024-12-11,10:15,Physical Therapy,Orthopedics,2,10,3,1,Scheduled,90,58.68
+738,P0197,INS0197,2023-02-03,16:15,Vaccination,Cardiology,5,11,6,2,No Show,15,28.39
+739,P0690,INS0690,2023-12-30,15:15,Vaccination,Orthopedics,4,4,3,5,Completed,30,19.3
+740,P0484,INS0484,2025-01-29,08:45,Follow-up,Dermatology,5,12,1,5,Cancelled,45,60.9
+741,P0180,INS0180,2024-08-05,10:15,Follow-up,Dermatology,3,9,3,3,Scheduled,60,20.17
+742,P0349,INS0349,2023-02-14,16:30,Specialist Visit,Dermatology,9,13,5,3,No Show,60,63.26
+743,P0887,INS0887,2023-01-17,10:45,Physical Therapy,Orthopedics,5,6,2,3,Scheduled,60,30.36
+744,P0046,INS0046,2024-06-13,14:00,Physical Therapy,Dermatology,4,1,1,5,No Show,45,10.23
+745,P0521,INS0521,2025-07-21,10:30,Vaccination,Neurology,10,11,4,4,Cancelled,60,33.75
+746,P0552,INS0552,2024-06-12,14:00,Follow-up,Neurology,2,8,6,1,Cancelled,90,3.86
+747,P0867,INS0867,2024-06-18,16:45,Routine Checkup,Primary Care,1,13,2,5,No Show,60,7.7
+748,P0402,INS0402,2025-09-10,12:45,Follow-up,Neurology,6,1,6,3,Scheduled,90,54.6
+749,P0433,INS0433,2023-02-10,17:00,Follow-up,Orthopedics,5,5,5,2,Completed,45,52.07
+750,P0993,INS0993,2025-01-23,16:45,Physical Therapy,Dermatology,6,1,3,3,Scheduled,45,58.62
+751,P0419,INS0419,2024-04-14,14:30,Vaccination,Primary Care,3,14,6,3,Completed,90,32.6
+752,P0483,INS0483,2023-12-10,12:45,Routine Checkup,Pediatrics,1,14,2,3,Scheduled,30,40.42
+753,P0893,INS0893,2025-10-01,13:15,Follow-up,Pediatrics,9,13,1,4,Completed,90,48.51
+754,P0587,INS0587,2024-05-15,18:45,Physical Therapy,Primary Care,7,4,3,5,No Show,30,1.42
+755,P0861,INS0861,2023-06-23,07:00,Specialist Visit,Orthopedics,9,10,4,5,No Show,15,72.51
+756,P0626,INS0626,2024-03-02,07:30,Lab Review,Dermatology,6,3,6,4,Cancelled,45,39.31
+757,P0778,INS0778,2025-08-30,07:15,Follow-up,Pediatrics,7,3,1,2,Cancelled,30,19.03
+758,P0697,INS0697,2024-07-30,10:30,Follow-up,Dermatology,10,7,6,2,Completed,15,40.29
+759,P0691,INS0691,2023-11-05,10:15,Vaccination,Orthopedics,7,2,4,1,Cancelled,30,62.86
+760,P0908,INS0908,2025-07-03,11:30,Vaccination,Orthopedics,8,15,4,2,Cancelled,30,29.11
+761,P0966,INS0966,2025-03-14,14:30,Lab Review,Primary Care,9,10,5,5,Cancelled,60,19.87
+762,P0508,INS0508,2025-02-05,16:30,Lab Review,Pediatrics,4,5,5,3,Completed,90,26.56
+763,P0195,INS0195,2025-07-02,18:45,Vaccination,Primary Care,4,8,4,4,Cancelled,90,35.65
+764,P0026,INS0026,2024-06-27,09:00,Follow-up,Orthopedics,8,6,1,3,Cancelled,45,14.98
+765,P0091,INS0091,2023-06-05,12:45,Specialist Visit,Neurology,4,1,5,5,Scheduled,15,48.25
+766,P0048,INS0048,2024-07-22,18:00,Follow-up,Pediatrics,7,6,6,5,Completed,30,55.86
+767,P0740,INS0740,2024-06-23,12:15,Physical Therapy,Pediatrics,7,6,2,3,Completed,30,64.87
+768,P0134,INS0134,2025-04-22,13:00,Lab Review,Neurology,1,14,1,3,Cancelled,15,64.16
+769,P0585,INS0585,2023-06-11,08:00,Lab Review,Cardiology,5,10,6,3,Cancelled,15,5.9
+770,P0706,INS0706,2025-10-24,16:45,Vaccination,Primary Care,2,9,1,3,Completed,60,59.07
+771,P0284,INS0284,2025-04-02,13:00,Vaccination,Neurology,5,8,4,4,Scheduled,90,48.21
+772,P0664,INS0664,2025-04-16,15:45,Lab Review,Primary Care,5,12,4,5,Cancelled,60,50.34
+773,P0880,INS0880,2025-02-24,15:15,Lab Review,Dermatology,1,12,3,2,No Show,60,25.73
+774,P0615,INS0615,2025-02-06,07:00,Vaccination,Neurology,3,12,2,2,Scheduled,30,43.07
+775,P0191,INS0191,2025-10-13,13:30,Routine Checkup,Pediatrics,5,14,4,2,Cancelled,30,68.6
+776,P0069,INS0069,2024-06-02,07:30,Routine Checkup,Cardiology,2,9,4,4,Scheduled,45,36.34
+777,P0462,INS0462,2024-05-13,10:00,Vaccination,Orthopedics,9,6,2,3,Cancelled,45,64.86
+778,P0848,INS0848,2023-09-20,07:15,Vaccination,Dermatology,5,5,1,1,Completed,30,58.73
+779,P0493,INS0493,2024-04-07,12:00,Physical Therapy,Neurology,7,7,3,4,Cancelled,45,7.16
+780,P0093,INS0093,2024-02-21,12:00,Physical Therapy,Neurology,4,1,2,3,No Show,30,20.07
+781,P0968,INS0968,2025-05-06,12:00,Vaccination,Cardiology,10,15,5,5,No Show,30,52.03
+782,P0501,INS0501,2024-11-02,12:00,Physical Therapy,Dermatology,5,12,6,1,Completed,90,73.44
+783,P0339,INS0339,2025-01-09,15:00,Follow-up,Orthopedics,6,13,5,2,Completed,90,15.42
+784,P0875,INS0875,2023-07-18,16:15,Vaccination,Dermatology,10,2,5,1,Scheduled,30,72.04
+785,P0067,INS0067,2024-06-12,13:15,Vaccination,Cardiology,10,14,2,3,Completed,15,51.69
+786,P0898,INS0898,2025-01-27,16:45,Lab Review,Cardiology,1,14,5,1,Completed,15,38.63
+787,P0159,INS0159,2025-08-25,10:30,Routine Checkup,Primary Care,5,12,4,1,Completed,30,6.29
+788,P0904,INS0904,2024-12-30,12:15,Routine Checkup,Primary Care,6,4,1,2,Scheduled,45,22.26
+789,P0461,INS0461,2025-06-22,15:00,Lab Review,Neurology,2,15,1,5,Cancelled,45,46.04
+790,P0311,INS0311,2024-10-02,12:45,Follow-up,Neurology,7,4,6,3,No Show,45,8.98
+791,P0572,INS0572,2024-01-12,16:00,Specialist Visit,Orthopedics,10,14,5,3,No Show,30,4.13
+792,P0315,INS0315,2023-06-18,16:00,Routine Checkup,Orthopedics,2,15,6,4,Cancelled,90,7.0
+793,P0061,INS0061,2025-12-14,17:15,Specialist Visit,Neurology,5,3,6,1,Cancelled,90,10.6
+794,P0845,INS0845,2025-10-28,09:15,Lab Review,Primary Care,8,6,6,4,Completed,60,62.67
+795,P0583,INS0583,2025-02-20,09:00,Physical Therapy,Cardiology,5,8,5,1,Scheduled,15,25.89
+796,P0236,INS0236,2023-10-12,17:30,Follow-up,Cardiology,3,9,6,4,Scheduled,30,11.84
+797,P0032,INS0032,2023-04-06,17:45,Vaccination,Dermatology,6,10,4,2,No Show,30,41.74
+798,P0962,INS0962,2023-09-08,09:30,Routine Checkup,Pediatrics,6,3,6,1,No Show,90,66.34
+799,P0823,INS0823,2023-02-17,18:15,Lab Review,Dermatology,7,1,4,1,No Show,90,2.15
+800,P0811,INS0811,2024-01-08,11:00,Follow-up,Pediatrics,5,15,4,3,Cancelled,60,51.94
+801,P0622,INS0622,2024-11-29,07:00,Vaccination,Primary Care,9,12,5,5,No Show,60,29.41
+802,P0705,INS0705,2024-06-15,10:00,Routine Checkup,Orthopedics,6,11,3,4,Completed,30,38.61
+803,P0504,INS0504,2025-12-23,15:45,Lab Review,Orthopedics,6,7,6,5,Completed,15,15.45
+804,P0675,INS0675,2023-04-18,13:15,Specialist Visit,Dermatology,1,15,1,1,Completed,90,28.66
+805,P0945,INS0945,2024-07-26,14:30,Lab Review,Orthopedics,2,13,5,5,Scheduled,30,38.17
+806,P0213,INS0213,2024-11-05,08:30,Physical Therapy,Dermatology,6,12,2,5,Completed,90,21.74
+807,P0076,INS0076,2023-09-07,11:45,Physical Therapy,Neurology,1,6,2,3,Cancelled,30,42.06
+808,P0603,INS0603,2025-01-04,08:45,Follow-up,Cardiology,1,14,5,3,Completed,30,49.31
+809,P0404,INS0404,2025-10-07,07:30,Physical Therapy,Dermatology,7,14,6,5,Cancelled,45,28.5
+810,P0677,INS0677,2023-11-02,16:15,Vaccination,Neurology,9,11,2,2,Completed,90,67.58
+811,P0779,INS0779,2023-08-15,15:15,Specialist Visit,Cardiology,6,4,1,4,No Show,60,40.14
+812,P0306,INS0306,2025-05-15,14:45,Lab Review,Orthopedics,9,1,5,4,No Show,45,60.13
+813,P0225,INS0225,2025-09-09,11:30,Physical Therapy,Pediatrics,10,8,3,2,Scheduled,30,26.81
+814,P0206,INS0206,2023-06-16,14:30,Vaccination,Neurology,6,10,6,2,Cancelled,45,40.31
+815,P0469,INS0469,2024-07-20,08:00,Lab Review,Neurology,5,9,4,2,Cancelled,60,24.24
+816,P0124,INS0124,2023-08-30,16:45,Follow-up,Pediatrics,6,4,3,5,Cancelled,45,59.03
+817,P0074,INS0074,2025-01-03,17:45,Vaccination,Primary Care,10,7,4,5,Cancelled,30,70.15
+818,P0009,INS0009,2023-04-13,16:15,Vaccination,Neurology,9,14,2,1,Scheduled,60,58.82
+819,P0858,INS0858,2023-03-19,08:30,Physical Therapy,Orthopedics,3,3,3,2,Completed,90,21.06
+820,P0555,INS0555,2024-03-16,11:15,Follow-up,Orthopedics,7,9,1,5,No Show,60,49.12
+821,P0051,INS0051,2023-06-19,17:00,Vaccination,Primary Care,4,4,3,5,Scheduled,15,62.89
+822,P0342,INS0342,2024-03-24,14:15,Vaccination,Dermatology,7,7,6,4,Scheduled,45,24.47
+823,P0280,INS0280,2025-05-03,07:30,Specialist Visit,Dermatology,3,15,4,1,Cancelled,60,64.18
+824,P0954,INS0954,2025-04-05,17:15,Follow-up,Cardiology,1,11,3,2,Cancelled,45,46.8
+825,P0065,INS0065,2023-08-08,16:15,Lab Review,Dermatology,6,7,4,2,No Show,15,12.8
+826,P0088,INS0088,2025-01-01,12:15,Physical Therapy,Cardiology,1,11,4,4,No Show,45,41.18
+827,P0092,INS0092,2023-11-22,13:15,Follow-up,Pediatrics,4,10,3,4,Cancelled,90,20.02
+828,P0767,INS0767,2025-03-20,07:45,Physical Therapy,Dermatology,1,14,4,3,Scheduled,90,52.27
+829,P0961,INS0961,2023-07-24,16:00,Follow-up,Orthopedics,6,6,1,2,No Show,45,7.2
+830,P0315,INS0315,2023-12-05,12:15,Lab Review,Primary Care,7,15,3,5,Completed,90,56.95
+831,P0779,INS0779,2024-05-15,15:30,Lab Review,Dermatology,8,5,4,4,Cancelled,45,28.44
+832,P0327,INS0327,2023-03-17,14:00,Vaccination,Pediatrics,5,12,5,3,Completed,45,16.7
+833,P0785,INS0785,2025-06-03,15:45,Lab Review,Orthopedics,2,6,4,5,Completed,30,54.44
+834,P0850,INS0850,2024-06-28,16:00,Follow-up,Orthopedics,4,5,1,3,Completed,45,44.53
+835,P0478,INS0478,2023-09-13,07:00,Routine Checkup,Primary Care,6,11,3,4,Cancelled,30,57.49
+836,P0630,INS0630,2024-06-22,10:00,Lab Review,Pediatrics,9,8,2,2,No Show,45,35.12
+837,P0513,INS0513,2024-11-20,13:30,Routine Checkup,Cardiology,6,5,6,4,No Show,15,29.51
+838,P0337,INS0337,2025-02-05,14:15,Physical Therapy,Neurology,6,3,2,2,No Show,45,26.21
+839,P0019,INS0019,2024-12-05,14:30,Follow-up,Pediatrics,9,2,6,4,Cancelled,15,11.65
+840,P0920,INS0920,2025-12-23,11:00,Specialist Visit,Orthopedics,3,4,2,3,Cancelled,15,22.54
+841,P0477,INS0477,2023-07-28,11:45,Physical Therapy,Orthopedics,2,5,6,4,Cancelled,30,73.06
+842,P0128,INS0128,2024-12-16,18:30,Physical Therapy,Pediatrics,1,9,6,2,Cancelled,45,27.96
+843,P0785,INS0785,2025-04-04,07:00,Follow-up,Primary Care,4,10,4,1,Scheduled,15,34.51
+844,P0631,INS0631,2023-03-05,17:00,Routine Checkup,Orthopedics,1,7,4,5,No Show,90,2.51
+845,P0557,INS0557,2025-06-04,18:15,Physical Therapy,Pediatrics,6,11,1,4,Completed,15,56.19
+846,P0374,INS0374,2024-04-29,17:45,Follow-up,Orthopedics,4,6,2,4,Cancelled,30,27.6
+847,P0690,INS0690,2024-12-30,18:45,Routine Checkup,Orthopedics,1,8,2,2,Completed,45,58.43
+848,P0991,INS0991,2024-03-13,10:30,Routine Checkup,Cardiology,10,1,1,3,Completed,15,45.27
+849,P0933,INS0933,2024-09-26,09:45,Lab Review,Pediatrics,10,4,4,4,Completed,45,35.98
+850,P0791,INS0791,2025-04-27,14:00,Lab Review,Pediatrics,9,1,2,1,Scheduled,60,50.52
+851,P0234,INS0234,2025-01-15,17:45,Vaccination,Dermatology,3,7,1,5,Completed,45,13.61
+852,P0686,INS0686,2025-04-30,10:45,Physical Therapy,Pediatrics,2,3,5,5,Cancelled,60,70.42
+853,P0107,INS0107,2023-07-01,09:15,Specialist Visit,Cardiology,2,5,6,2,No Show,30,60.38
+854,P0085,INS0085,2023-08-10,16:45,Lab Review,Dermatology,10,13,2,3,No Show,60,73.26
+855,P0777,INS0777,2024-10-14,14:30,Lab Review,Neurology,5,7,3,2,Completed,45,51.48
+856,P0325,INS0325,2024-07-27,11:00,Routine Checkup,Dermatology,2,13,6,5,No Show,15,16.04
+857,P0944,INS0944,2025-07-10,10:00,Lab Review,Pediatrics,3,1,2,5,Scheduled,90,16.23
+858,P0858,INS0858,2025-05-28,15:30,Routine Checkup,Dermatology,5,14,4,1,No Show,60,50.31
+859,P0170,INS0170,2023-02-27,08:30,Lab Review,Dermatology,4,4,2,3,No Show,15,67.46
+860,P0114,INS0114,2024-01-14,14:15,Physical Therapy,Cardiology,7,1,2,1,Cancelled,60,69.01
+861,P0480,INS0480,2025-09-15,07:00,Follow-up,Neurology,8,7,1,5,Completed,60,28.29
+862,P0759,INS0759,2025-02-03,07:45,Follow-up,Neurology,8,12,1,4,Completed,15,37.42
+863,P0043,INS0043,2024-07-31,15:45,Physical Therapy,Primary Care,5,2,5,4,Completed,15,16.96
+864,P0847,INS0847,2023-11-28,13:30,Lab Review,Pediatrics,7,5,5,4,Cancelled,45,8.19
+865,P0628,INS0628,2023-06-20,13:00,Vaccination,Neurology,4,10,6,1,Cancelled,45,59.71
+866,P0583,INS0583,2023-03-09,16:45,Lab Review,Primary Care,4,5,2,3,Scheduled,90,33.8
+867,P0055,INS0055,2023-09-10,15:00,Lab Review,Pediatrics,9,10,1,2,Cancelled,90,10.67
+868,P0401,INS0401,2025-08-09,07:45,Vaccination,Cardiology,2,6,2,1,Completed,60,54.65
+869,P0800,INS0800,2024-11-29,09:45,Routine Checkup,Cardiology,3,2,4,5,Scheduled,90,53.09
+870,P0467,INS0467,2025-01-21,11:00,Specialist Visit,Dermatology,4,4,3,5,Completed,90,62.07
+871,P0197,INS0197,2023-06-19,07:45,Vaccination,Orthopedics,4,15,3,1,Cancelled,45,25.36
+872,P0260,INS0260,2025-02-11,16:15,Lab Review,Neurology,6,2,1,2,Scheduled,45,3.53
+873,P0828,INS0828,2023-07-01,09:15,Specialist Visit,Primary Care,10,6,3,5,Cancelled,90,43.36
+874,P0955,INS0955,2024-03-27,12:45,Routine Checkup,Orthopedics,8,2,4,1,Completed,15,25.9
+875,P0513,INS0513,2025-07-14,07:30,Routine Checkup,Cardiology,5,15,6,4,Scheduled,45,6.99
+876,P0402,INS0402,2024-06-02,15:15,Lab Review,Neurology,9,10,3,2,Completed,60,28.89
+877,P0266,INS0266,2023-08-25,15:45,Follow-up,Orthopedics,8,14,6,4,Scheduled,15,29.08
+878,P0230,INS0230,2024-09-27,12:45,Lab Review,Neurology,4,14,1,4,Completed,15,17.07
+879,P0182,INS0182,2024-06-25,16:45,Lab Review,Neurology,8,6,4,3,No Show,15,58.46
+880,P0310,INS0310,2024-07-29,15:00,Physical Therapy,Pediatrics,8,12,2,1,Scheduled,45,29.03
+881,P0878,INS0878,2024-11-29,11:15,Follow-up,Primary Care,8,10,5,3,No Show,60,31.02
+882,P0121,INS0121,2023-08-04,08:00,Follow-up,Dermatology,8,7,3,4,No Show,45,50.52
+883,P0360,INS0360,2025-05-06,12:45,Specialist Visit,Dermatology,10,13,4,2,Completed,60,51.23
+884,P0216,INS0216,2024-08-29,15:30,Vaccination,Neurology,1,13,2,5,Scheduled,90,38.06
+885,P0980,INS0980,2025-02-17,15:30,Lab Review,Orthopedics,1,14,4,4,Completed,60,5.08
+886,P0532,INS0532,2023-09-28,13:45,Routine Checkup,Dermatology,8,15,4,4,Cancelled,90,28.09
+887,P0042,INS0042,2024-02-25,16:45,Specialist Visit,Orthopedics,4,8,4,5,Completed,60,5.23
+888,P0805,INS0805,2023-06-24,07:45,Specialist Visit,Pediatrics,2,3,5,5,Cancelled,30,14.06
+889,P0813,INS0813,2023-03-08,13:15,Vaccination,Cardiology,3,4,2,2,Scheduled,30,16.18
+890,P0604,INS0604,2024-04-15,11:30,Follow-up,Primary Care,7,14,6,1,Cancelled,90,73.87
+891,P0265,INS0265,2024-04-09,17:00,Follow-up,Dermatology,6,11,2,2,No Show,60,40.33
+892,P0402,INS0402,2024-10-23,09:30,Routine Checkup,Cardiology,9,6,2,4,Scheduled,15,58.91
+893,P0883,INS0883,2024-06-26,11:30,Vaccination,Dermatology,8,13,3,2,Scheduled,15,72.14
+894,P0647,INS0647,2025-12-01,07:30,Specialist Visit,Pediatrics,6,5,2,5,Scheduled,45,18.57
+895,P0455,INS0455,2025-04-20,11:15,Vaccination,Pediatrics,1,8,5,4,Cancelled,90,29.77
+896,P0696,INS0696,2024-01-05,07:15,Lab Review,Dermatology,3,3,1,2,Scheduled,60,2.56
+897,P0921,INS0921,2023-07-10,16:30,Physical Therapy,Orthopedics,7,15,2,5,Completed,90,60.83
+898,P0580,INS0580,2025-12-10,14:15,Physical Therapy,Orthopedics,4,14,6,1,No Show,30,60.42
+899,P0582,INS0582,2025-01-11,13:15,Physical Therapy,Primary Care,8,15,6,5,Cancelled,45,22.53
+900,P0438,INS0438,2023-01-18,10:15,Specialist Visit,Dermatology,9,9,1,4,Scheduled,15,24.31
+901,P0719,INS0719,2023-03-26,09:45,Vaccination,Pediatrics,2,3,1,2,Completed,15,6.17
+902,P0909,INS0909,2025-09-28,12:30,Vaccination,Pediatrics,2,7,3,5,Cancelled,90,10.31
+903,P0886,INS0886,2023-05-20,07:30,Follow-up,Orthopedics,3,14,4,3,Scheduled,15,26.66
+904,P0416,INS0416,2025-07-05,11:30,Specialist Visit,Primary Care,4,14,6,4,Scheduled,60,40.09
+905,P0786,INS0786,2024-11-30,11:15,Specialist Visit,Primary Care,10,6,5,4,Completed,30,51.66
+906,P0222,INS0222,2025-03-25,15:00,Follow-up,Primary Care,2,14,3,3,Cancelled,90,11.51
+907,P0138,INS0138,2025-04-01,14:00,Vaccination,Neurology,9,6,5,1,Cancelled,15,7.17
+908,P0046,INS0046,2023-08-07,16:45,Follow-up,Dermatology,8,11,2,1,Completed,45,5.52
+909,P0134,INS0134,2023-04-05,08:15,Physical Therapy,Neurology,6,3,2,2,Completed,90,33.75
+910,P0004,INS0004,2024-07-04,16:15,Follow-up,Dermatology,6,9,2,5,Scheduled,45,40.16
+911,P0961,INS0961,2025-01-31,12:00,Routine Checkup,Orthopedics,4,13,5,4,Scheduled,45,45.12
+912,P0997,INS0997,2023-02-09,14:30,Follow-up,Pediatrics,2,13,3,2,No Show,90,60.8
+913,P0847,INS0847,2024-05-02,16:45,Specialist Visit,Orthopedics,3,6,5,1,Completed,15,13.34
+914,P0669,INS0669,2025-08-20,18:45,Specialist Visit,Neurology,7,12,4,4,Completed,45,22.28
+915,P0651,INS0651,2024-09-18,10:30,Vaccination,Dermatology,8,9,4,2,Cancelled,45,35.74
+916,P0346,INS0346,2025-04-11,18:30,Specialist Visit,Dermatology,1,14,2,5,Scheduled,30,20.27
+917,P0547,INS0547,2023-02-08,17:30,Specialist Visit,Pediatrics,8,10,4,1,Scheduled,15,42.57
+918,P0010,INS0010,2023-05-15,13:30,Follow-up,Cardiology,8,7,2,3,Completed,60,28.65
+919,P0798,INS0798,2023-10-11,09:30,Vaccination,Dermatology,3,15,1,2,Cancelled,90,17.32
+920,P0610,INS0610,2023-06-23,18:30,Lab Review,Primary Care,2,11,3,2,Cancelled,30,8.15
+921,P0728,INS0728,2023-08-21,14:15,Specialist Visit,Orthopedics,5,15,1,3,Cancelled,45,31.58
+922,P0993,INS0993,2023-01-27,07:00,Physical Therapy,Pediatrics,3,15,5,2,Completed,45,45.81
+923,P0755,INS0755,2024-07-12,14:30,Specialist Visit,Cardiology,10,9,6,2,No Show,90,31.29
+924,P0426,INS0426,2025-09-12,14:00,Vaccination,Cardiology,10,1,2,2,Cancelled,30,55.63
+925,P0477,INS0477,2024-04-28,13:30,Routine Checkup,Primary Care,4,3,5,5,Scheduled,90,2.85
+926,P0995,INS0995,2023-04-24,13:30,Follow-up,Orthopedics,2,14,6,3,No Show,30,33.87
+927,P0501,INS0501,2024-05-25,18:30,Vaccination,Pediatrics,1,12,3,2,Completed,15,30.04
+928,P0505,INS0505,2023-10-22,18:00,Lab Review,Orthopedics,8,6,3,5,Completed,90,14.73
+929,P0979,INS0979,2024-04-18,17:45,Physical Therapy,Primary Care,5,6,2,5,Completed,45,13.09
+930,P0481,INS0481,2024-03-31,12:45,Specialist Visit,Cardiology,9,2,2,2,Scheduled,60,17.43
+931,P0349,INS0349,2024-05-24,17:15,Routine Checkup,Cardiology,4,7,3,1,Completed,30,21.98
+932,P0488,INS0488,2024-06-03,07:30,Specialist Visit,Neurology,8,3,1,2,Completed,45,3.36
+933,P0938,INS0938,2023-05-29,13:00,Specialist Visit,Cardiology,3,6,1,1,Cancelled,15,27.42
+934,P0366,INS0366,2024-10-26,15:45,Routine Checkup,Dermatology,5,11,6,1,No Show,30,11.42
+935,P0664,INS0664,2024-09-04,12:45,Vaccination,Primary Care,2,10,5,2,No Show,45,64.19
+936,P0135,INS0135,2024-10-18,10:00,Follow-up,Dermatology,2,10,1,2,No Show,15,26.2
+937,P0761,INS0761,2024-04-02,18:30,Physical Therapy,Pediatrics,2,10,6,4,Scheduled,45,51.9
+938,P0879,INS0879,2024-10-05,12:45,Routine Checkup,Orthopedics,7,13,2,2,Completed,45,30.72
+939,P0018,INS0018,2025-05-31,08:45,Specialist Visit,Primary Care,9,11,3,4,Completed,45,9.86
+940,P0895,INS0895,2023-01-02,14:45,Routine Checkup,Pediatrics,1,5,2,1,No Show,90,42.18
+941,P0395,INS0395,2025-10-22,12:45,Physical Therapy,Orthopedics,8,15,1,3,Completed,30,51.95
+942,P0433,INS0433,2023-02-19,15:00,Lab Review,Dermatology,1,2,1,1,No Show,60,54.96
+943,P0870,INS0870,2023-04-13,18:15,Physical Therapy,Cardiology,8,14,5,5,Scheduled,90,44.54
+944,P0040,INS0040,2024-07-29,13:00,Follow-up,Cardiology,9,9,1,4,Cancelled,90,55.04
+945,P0091,INS0091,2025-12-16,17:30,Follow-up,Dermatology,1,6,6,1,Cancelled,45,74.49
+946,P0777,INS0777,2023-11-25,13:45,Specialist Visit,Dermatology,1,1,4,2,Cancelled,30,61.81
+947,P0742,INS0742,2023-08-18,17:30,Follow-up,Cardiology,4,8,2,3,Cancelled,45,1.33
+948,P0529,INS0529,2024-04-02,18:00,Physical Therapy,Cardiology,1,13,4,5,Cancelled,90,57.02
+949,P0599,INS0599,2025-01-30,08:30,Vaccination,Pediatrics,10,9,2,4,Cancelled,15,19.52
+950,P0493,INS0493,2024-06-23,16:00,Follow-up,Orthopedics,9,9,6,4,Cancelled,45,5.13
+951,P0575,INS0575,2024-11-22,14:00,Routine Checkup,Orthopedics,5,6,4,1,No Show,90,59.67
+952,P0841,INS0841,2025-04-03,10:30,Specialist Visit,Primary Care,9,1,6,4,Completed,90,69.9
+953,P0017,INS0017,2023-03-08,09:30,Physical Therapy,Pediatrics,7,6,2,2,Cancelled,60,36.16
+954,P0248,INS0248,2023-02-07,17:15,Routine Checkup,Orthopedics,8,12,5,4,Scheduled,90,58.71
+955,P0860,INS0860,2025-05-01,08:30,Vaccination,Dermatology,8,11,2,1,Scheduled,30,19.7
+956,P0059,INS0059,2023-10-11,12:30,Vaccination,Pediatrics,1,11,1,3,No Show,90,74.44
+957,P0520,INS0520,2023-03-16,17:15,Physical Therapy,Orthopedics,7,11,4,2,Cancelled,30,23.24
+958,P0100,INS0100,2025-03-13,10:00,Specialist Visit,Pediatrics,4,9,2,1,Scheduled,15,43.52
+959,P0299,INS0299,2024-04-02,12:15,Physical Therapy,Pediatrics,10,15,2,1,Cancelled,45,7.98
+960,P0582,INS0582,2025-04-25,12:30,Follow-up,Orthopedics,3,9,5,4,Completed,45,7.48
+961,P0621,INS0621,2025-02-12,09:15,Vaccination,Cardiology,8,13,3,4,Scheduled,15,12.45
+962,P0256,INS0256,2023-03-18,09:15,Vaccination,Primary Care,6,7,6,4,Cancelled,15,13.83
+963,P0081,INS0081,2025-01-25,15:00,Vaccination,Primary Care,9,14,6,2,Scheduled,45,5.21
+964,P0413,INS0413,2025-06-02,07:00,Specialist Visit,Cardiology,10,3,4,5,No Show,45,36.44
+965,P0629,INS0629,2023-03-10,16:45,Specialist Visit,Orthopedics,2,6,2,4,Cancelled,90,24.22
+966,P0565,INS0565,2024-07-31,11:30,Specialist Visit,Primary Care,3,3,3,5,Completed,45,40.25
+967,P0857,INS0857,2025-03-15,10:00,Specialist Visit,Orthopedics,4,8,1,3,No Show,15,16.98
+968,P0076,INS0076,2023-08-14,15:00,Lab Review,Cardiology,7,11,4,5,Scheduled,45,59.1
+969,P0619,INS0619,2024-05-24,17:45,Routine Checkup,Orthopedics,2,1,3,4,Scheduled,90,42.59
+970,P0763,INS0763,2023-09-12,08:15,Lab Review,Pediatrics,7,11,6,5,Completed,45,54.47
+971,P0420,INS0420,2024-03-08,11:00,Routine Checkup,Cardiology,5,2,3,1,Completed,15,38.68
+972,P0114,INS0114,2023-08-01,11:00,Vaccination,Primary Care,4,3,3,1,Cancelled,90,50.14
+973,P0318,INS0318,2024-09-30,14:00,Physical Therapy,Pediatrics,7,1,5,3,Scheduled,60,33.99
+974,P0304,INS0304,2025-10-27,14:15,Routine Checkup,Primary Care,4,2,3,3,Cancelled,45,23.6
+975,P0129,INS0129,2023-11-09,14:30,Lab Review,Orthopedics,10,5,1,4,No Show,15,16.69
+976,P0879,INS0879,2025-07-10,11:30,Physical Therapy,Neurology,10,10,5,4,Scheduled,90,70.69
+977,P0253,INS0253,2023-08-07,18:15,Follow-up,Neurology,10,5,1,2,Cancelled,45,5.31
+978,P0854,INS0854,2025-02-28,07:15,Specialist Visit,Orthopedics,8,6,2,1,Scheduled,45,36.67
+979,P0971,INS0971,2025-03-23,10:00,Lab Review,Primary Care,2,1,5,5,Cancelled,45,22.15
+980,P0806,INS0806,2023-07-13,09:30,Specialist Visit,Orthopedics,1,7,3,1,Scheduled,45,33.06
+981,P0974,INS0974,2025-12-03,13:45,Physical Therapy,Pediatrics,9,7,6,5,No Show,90,18.92
+982,P0072,INS0072,2025-08-15,07:15,Follow-up,Primary Care,1,1,4,4,Scheduled,15,33.34
+983,P0973,INS0973,2024-03-30,17:45,Vaccination,Dermatology,5,10,2,2,Scheduled,60,39.59
+984,P0114,INS0114,2023-06-01,14:00,Physical Therapy,Neurology,7,14,1,1,No Show,90,1.77
+985,P0945,INS0945,2023-07-10,11:30,Vaccination,Primary Care,6,6,5,4,Cancelled,45,17.06
+986,P0239,INS0239,2025-11-28,11:45,Lab Review,Pediatrics,6,3,2,5,Scheduled,60,58.21
+987,P0028,INS0028,2024-03-08,18:15,Vaccination,Cardiology,1,15,1,3,Completed,60,46.99
+988,P0357,INS0357,2024-03-15,18:45,Lab Review,Primary Care,10,8,6,4,Completed,15,74.58
+989,P0222,INS0222,2024-09-13,13:15,Vaccination,Dermatology,8,12,6,2,Completed,90,61.7
+990,P0867,INS0867,2025-12-13,13:30,Lab Review,Cardiology,10,3,4,4,Cancelled,15,19.56
+991,P0081,INS0081,2024-05-09,11:15,Routine Checkup,Orthopedics,10,7,4,1,Cancelled,15,27.4
+992,P0573,INS0573,2023-07-27,14:15,Vaccination,Orthopedics,10,3,1,1,Cancelled,30,25.43
+993,P0403,INS0403,2024-01-20,12:30,Follow-up,Pediatrics,7,4,5,5,Cancelled,15,7.62
+994,P0304,INS0304,2024-11-02,12:45,Routine Checkup,Cardiology,10,12,2,3,Completed,60,52.17
+995,P0102,INS0102,2025-03-20,13:15,Vaccination,Pediatrics,3,10,6,1,No Show,15,46.59
+996,P0178,INS0178,2025-03-08,07:00,Routine Checkup,Neurology,2,13,1,1,Scheduled,45,31.81
+997,P0426,INS0426,2023-05-25,16:45,Specialist Visit,Dermatology,5,13,3,5,Scheduled,30,71.07
+998,P0876,INS0876,2024-04-18,07:00,Lab Review,Neurology,9,9,2,2,No Show,60,62.42
+999,P0640,INS0640,2023-04-15,17:45,Follow-up,Cardiology,4,11,2,1,Scheduled,45,49.9
+1000,P0542,INS0542,2023-09-13,14:45,Lab Review,Cardiology,7,14,3,3,Cancelled,15,45.44
